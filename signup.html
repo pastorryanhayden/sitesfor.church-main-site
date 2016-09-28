@@ -1,0 +1,326 @@
+---
+layout: default
+---
+<div class="signup-navigation">
+    <a href="#"><span>Step 1</span> <br> Choose A Theme</a>
+    <a href="#"><span>Step 2</span><br> Basic Info</a>
+    <a href="#"><span>Step 3</span> <br> Payment</a>
+</div><!--/signup-navigation-->
+
+
+<!--STEP 1-->
+<div id="step1">
+    <div class="signup-page welcome">
+        <div class="wrapper">
+            <div class="form">
+                <img src="{{site.url}}img/welcome.png" alt="">
+                <h2 class="text-center">Welcome!</h2>
+                <p>First things first, we need you to pick a <strong>username</strong> and <strong>password</strong>:
+                </p>
+                <!--<form action="#">-->
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" onchange="check_pass()" required>
+                <input type="password" id="confirm_password" placeholder="Confirm Password" onkeyup="check_pass();"
+                       required>
+                <button id="continue0" class="button" disabled>Choose &amp; Continue</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--STEP 1-->
+
+<!--STEP 2-->
+<div id="step2">
+    <div class="signup-page">
+        <div class="wrapper">
+            <div class="viewer">
+                <img src="/assets/img/california-blue.png" alt="">
+            </div><!--/viewer-->
+            <div class="form">
+                <h2>Choose Your Theme</h2>
+                <p>Choose your theme and color scheme from the dropdown below. A preview will appear on the screen.
+                    <br>
+                    (You can change this later.)</p>
+                <!--<form action="#">-->
+                <select id="choose_theme" class="theme">
+                    <option value="California">California Theme</option>
+                    <option value="Virginia">Virginia Theme</option>
+                    <option value="New_England">New England Theme</option>
+                    <option value="Proclaim">Proclaim Theme (Personal/Evangelists)</option>
+                    <option value="Missionary">Go Theme (Missionaries)</option>
+                </select>
+                <p class="theme_description">California is a modern church theme, it features promoted series,
+                    ministries and events on the home page. For an example visit <a
+                            href="#">biblebaptistmattoon.org</a>
+                </p>
+                <hr>
+                <p>
+                    <strong>NOTE: </strong>
+                    Our site-reps will work with your webmaster to customize the colors and fonts of the website
+                </p>
+                <!--</form>-->
+                <button id="continue1" class="button" disabled>Choose &amp; Continue</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--STEP 2-->
+
+<!--STEP 3-->
+<div id="step3">
+    <div class="signup-page step-2">
+        <div class="wrapper">
+            <div class="form">
+                <h2>Church Details</h2>
+                <p>Please provide some information about your church so that we can start to build your site.</p>
+                <h3>The Basics</h3>
+                <!--<form action="#">-->
+                <input type="text" id="name_of_church" placeholder="The name of your Church..."
+                       onkeyup="check_step3();" required>
+                <input type="text" id="name_of_city" placeholder="Your city" onkeyup="check_step3();" required>
+                <input type="text" id="name_of_domain" placeholder="The url you want to use or you domain"
+                       onkeyup="check_step3();" required>
+                <fieldset class="url-box">
+                    <label for="checkbox_domain">
+                        Do you own it already?
+                        <input type="checkbox" id="checkbox_domain">
+                    </label>
+                </fieldset>
+                <!--</form>-->
+                <button class="button" id="continue2" disabled>Choose &amp; Continue</button>
+
+                <progress max="100" value="15"></progress>
+            </div><!--/form-->
+        </div>
+    </div>
+</div>
+<!--STEP 3-->
+
+<!--STEP 4-->
+<div id="step4">
+    <div class="signup-page step-3">
+        <div class="wrapper">
+            <div class="form">
+                <h2>Church Details</h2>
+                <p>Please provide some information about your church so that we can start to build your site.</p>
+
+                <h3>Service Schedule</h3>
+                <p>For each service in your service schedule, please follow the format indicated below.</p>
+                <p class="hint-schedule">
+                    <span>
+                        Example:<br>Sunday School - 8:00A<br>Sunday Morning - 10:30AM<br>Wednesday Bible Study - 4:00PM<br>NOTE: Every new line indicates the start of a new schedule.
+                    </span>
+                </p>
+                <textarea id="service_schedule_txtarea" rows="10"></textarea>
+                <button class="button" id="continue3">Choose &amp; Continue</button>
+                <progress max="100" value="35"></progress>
+            </div><!--/form-->
+        </div>
+    </div>
+</div>
+<!--STEP 4-->
+
+<!--STEP 5-->
+<div id="step5">
+    <div class="signup-page step-4">
+        <div class="wrapper">
+            <div class="form">
+                <h2>Church Details</h2>
+                <p>Please provide some information about your church so that we can start to build your site.</p>
+
+                <h3>Pastor &amp; Contact Info</h3>
+                <p>This is some of the most important information on your site so we want to set it up right
+                    away.</p>
+
+                <!--<form action="#">-->
+                    <input type="text" placeholder="Lead Pastor's Name" id="pastor_name" onkeyup="check_step5();"
+                           required>
+                    <input type="text" placeholder="Church physical address" id="church_address"
+                           onkeyup="check_step5();" required>
+                    <input type="text" placeholder="Church phone number" id="church_phone" onkeyup="check_step5();"
+                           required>
+                    <input type="text" placeholder="Church email address" id="church_email" onkeyup="check_step5();"
+                           required>
+                <!--</form>-->
+                <button class="button" id="continue4" disabled>Choose &amp; Continue</button>
+                <progress max="100" value="60"></progress>
+            </div>
+        </div>
+    </div>
+</div>
+<!--STEP 5-->
+
+<!--STEP 6-->
+<div id="step6">
+    <div class="signup-page step-4">
+        <div class="wrapper">
+            <div class="form">
+                <h2>Church Details</h2>
+                <p>Please provide some information about your church so that we can start to build your site.</p>
+
+                <h3>Webmaster</h3>
+                <p>Who will be the primary person at the church who is managing the site?</p>
+                <input type="text" placeholder="Webmaster's Name?" id="web_lead_name" onkeyup="check_step6();">
+                <input type="text" placeholder="Phone" id="web_lead_phone" onkeyup="check_step6();">
+                <input type="text" placeholder="Email" id="web_lead_email" onkeyup="check_step6();">
+                <input type="text" placeholder="Best time to call" id="best_time_to_call">
+                <button class="button" id="continue5" disabled>Choose &amp; Continue</button>
+                <progress max="100" value="80"></progress>
+            </div>
+        </div>
+    </div>
+</div>
+<!--STEP 6-->
+
+<!--STEP 7-->
+<div id="step7">
+    <div class="signup-page step-4 step-3 step-2 review-page">
+        <div class="wrapper">
+            <div class="form">
+                <h2>Review Your Details</h2>
+                <p>Please look over the details you've provided and confirm them before moving on to payment.</p>
+
+                <div class="viewer">
+                    <img src="/assets/img/california-blue.png" alt="">
+                </div><!--/viewer-->
+                <!--<div class="form">-->
+                <h2>Theme</h2>
+                <!--<form action="#">-->
+                    <select class="theme" id="theme_preview">
+                        <option value="California">California Theme</option>
+                        <option value="Virginia">Virginia Theme</option>
+                        <option value="New_England">New England Theme</option>
+                        <option value="Proclaim">Proclaim Theme (Personal/Evangelists)</option>
+                        <option value="Missionary">Go Theme (Missionaries)</option>
+                    </select>
+                    <p class="theme_description">California is a modern church theme, it features promoted series,
+                        ministries and events on the home page. For an example visit <a
+                                href="#">biblebaptistmattoon.org</a></p>
+                <!--</form>-->
+                <hr>
+
+                <h2>Church Details</h2>
+                <h3>The Basics</h3>
+                <form action="#">
+                    <input type="text" placeholder="The name of your church" id="church_name_preview">
+                    <input type="text" placeholder="Your city" id="church_location_preview">
+                    <input type="text" placeholder="The url you want to use" id="Domain_preview">
+                    <fieldset class="url-box">
+                        <label for="Domain_owned_preview">
+                            Do you own it already?
+                            <input type="checkbox" id="Domain_owned_preview">
+                        </label>
+                    </fieldset>
+                </form>
+                <hr>
+
+                <h3>Service Schedule</h3>
+                <p>For each service in your service schedule, we've shown them below as they will appear in your website</p>
+                <div class="service-schedules" id="service-schedule-container"></div>
+                <hr>
+
+                <h3>Pastor &amp; Contact Info</h3>
+                <p>This is some of the most important information on your site so we want to set it up right
+                    away.</p>
+                <form action="#">
+                    <input type="text" placeholder="Lead Pastor's Name" id="PastorName_preview">
+                    <input type="text" placeholder="Church physical address" id="ChurchAddress_preview">
+                    <input type="text" placeholder="Church phone number" id="ChurchPhone_preview">
+                    <input type="text" placeholder="Church email address" id="ChurchEmail_preview">
+                </form>
+                <hr>
+
+                <h3>Webmaster</h3>
+                <p>Who will be the primary person at the church who is managing the site?</p>
+                <form action="#">
+                    <input type="text" placeholder="Webmaster's Name?" id="WebLeadName_preview">
+                    <input type="text" placeholder="Phone" id="WebLeadPhone_preview">
+                    <input type="text" placeholder="Email" id="WebLeadEmail_preview">
+                    <input type="text" placeholder="Best time to call" id="BestTimeToCall_preview">
+                </form>
+                <hr>
+
+                <button class="button" id="continue6">Confirm &amp; Proceed to
+                    Payment
+                </button>
+                <progress max="100" value="100"></progress>
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--STEP 7-->
+
+<!--STEP 8-->
+<div id="step8">
+    <div class="payment-page">
+        <div class="payment-explanation">
+            <h2>Payment</h2>
+            <p>You can pay for Sitesfor.Church either monthly or annually. There is no change in cost. <br>However, we
+                do
+                require at
+                least a one year commitment.</p>
+            <p>The checkout is handled by Stripe, one of the world's largest credit card processors, so your
+                data is
+                safe.</p>
+            <p>The price includes the domain, setup, hosting, and one theme customization per year.<br><em>We
+                prefer you to pay
+                annually, so we are offering our missionary organizer (normally a $25 fee) free for those
+                who pay
+                annually.</em></p>
+        </div><!--/payment-explanation-->
+        <div class="payment-buttons">
+            <ul class="pricing-table">
+                <li class="title">Pay Annually</li>
+                <li class="price">$360 <br>(per year)</li>
+                <li class="bullet-item">1 Site</li>
+                <li class="bullet-item">1 Template Customization per year</li>
+                <li class="bullet-item">Hosting &amp; Domain</li>
+                <li class="bullet-item">In depth training</li>
+                <li class="bullet-item">Site Rep Support</li>
+                <li class="bullet-item">*<strong>Custom Missionary Section</strong></li>
+                <li class="cta-button">
+                    <script
+                            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                            data-key="pk_test_1MCYLYHQDa4DwnBoKd5CqoaP"
+                            data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                            data-name="Sitesfor.Church Annually"
+                            data-description="$360 per year"
+                            data-panel-label="Subscribe"
+                            data-label="Subscribe"
+                            data-amount="36000">
+                    </script>
+                </li>
+            </ul>
+            <ul class="pricing-table">
+                <li class="title">Pay Monthly</li>
+                <li class="price">$30 <br>(per month)</li>
+                <li class="bullet-item">1 Site</li>
+                <li class="bullet-item">1 Template Customization per year</li>
+                <li class="bullet-item">Hosting &amp; Domain</li>
+                <li class="bullet-item">In depth training</li>
+                <li class="bullet-item">Site Rep Support</li>
+                <li class="bullet-item"><strike><strong>Custom Missionary Section</strong></strike></li>
+                <li class="cta-button">
+                    <script
+                            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                            data-key="pk_test_1MCYLYHQDa4DwnBoKd5CqoaP"
+                            data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                            data-name="Sitesfor.Church Monthy"
+                            data-description="$30 per month"
+                            data-panel-label="Subscribe"
+                            data-label="Subscribe"
+                            data-amount="3000">
+                    </script>
+                </li>
+            </ul>
+        </div><!--/payment-buttons-->
+
+    </div><!--/payment-page-->
+</div>
+<!--STEP 8-->
+
+</div>
+</div><!--/wrapper-->
+</div><!--/signup-page-->
