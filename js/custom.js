@@ -183,7 +183,6 @@ $(document).ready(function () {
     // GOT TO STEP8
 
     sendToAirbase = function () {
-        alert(f_service_schedule.val());
         var data = {};
         data.username = f_username.val();
         data.email = f_email.val();
