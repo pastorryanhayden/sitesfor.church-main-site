@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="srdocs">
+<aside>
+    <ul class="menu vertical">
+        {% for doc in site.srdocs %}
+        <li><a href="{{doc.url}}">{{doc.title}}</a></li>
+        {% endfor %}
+    </ul>
+</aside>
+<article>
+    {{content}}   
+</article>
+</div>

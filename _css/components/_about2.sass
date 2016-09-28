@@ -1,0 +1,268 @@
+ul.about-menu
+    list-style-type: none
+    margin-left: 0
+    display: flex 
+    background: $secondary-color
+    height: 50px
+    justify-content: space-between
+    align-items: center
+    width: 100%
+    max-width: 1200px
+    margin-left: auto
+    margin-right: auto
+    margin-bottom: 0
+    
+    li
+        line-height: 50px
+        padding-left: 10px
+        padding-right: 10px
+        text-align: center
+        min-width: 30%
+        
+
+
+    li.active
+        background: darken($secondary-color, 10%)
+        line-height: 50px
+        min-width: 30%
+
+    li a 
+        color: $white
+        text-transform: uppercase
+.aboutUs.websites
+    padding-top: 0
+    width: 100%
+    max-width: 1200px
+    background: $white
+    .banner
+        background: url(http://sitesforchurch.s3.amazonaws.com/Header.jpg) no-repeat center center
+        width: 100%
+        height: 200px
+        background-size: cover
+        @include breakpoint (948px)
+            width: 100%
+            height: 396px
+            background-size: cover
+        h1
+            width: 100%
+            height: 396px
+            text-indent: -7000px
+            margin-top: 0
+    .banner2
+        color: #02B3CD
+        h2 
+            font-weight: bold  
+            width: 324px
+            text-align: center
+            margin-left: auto
+            margin-right: auto 
+            font-size: 40px
+            margin-top: 20px
+            margin-bottom: 20px
+            span
+                color: $primary-color 
+                font-size: 50px
+                font-style: italic
+                text-align: center 
+.static
+    .band
+        background: #009688
+        height: 200px
+        width: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        h2
+            text-align: center
+            color: $white 
+            font-weight: bold
+            span
+                text-decoration: underline
+    .explanation
+        background: #F0F0F0
+        display: flex
+        justify-content: space-between
+        flex-direction: column
+        @include breakpoint(medium)
+            flex-direction: row 
+        p 
+            margin-top: 20px
+            margin-left: 20px 
+            margin-right: 20px
+            max-width: 546px
+            align-self: flex-start
+        img
+            width: 404px
+            align-self: flex-end 
+    .protest
+        padding-top: 11px
+        border-bottom: 1px solid black 
+        h3
+            text-indent: -5000px
+            background: url(http://sitesforchurch.s3.amazonaws.com/static-protest.png) no-repeat bottom center
+            height: 197px
+            max-width: 496px
+            margin-bottom: 0
+            margin-left: auto
+            margin-right: auto
+            background-size: contain
+    .case
+        display: flex
+        justify-content: space-between
+        flex-direction: column
+        @include breakpoint(large)
+            flex-direction: row 
+        img
+            width: 453px
+            height: 321px
+            align-self: center
+            margin-bottom: 40px
+            margin-top: 30px            
+            @include breakpoint(large)
+                margin-right: 30px
+                margin-bottom: 0 
+                margin-top: 0
+        .text 
+            max-width: 700px
+            padding: 20px
+            align-self: center
+            ol
+                margin-left: 50px
+
+                h4
+                    font-size: 22px
+                    font-weight: bold
+                    color: #009688
+.airtable
+    .band
+        background: #009688
+        height: 200px
+        width: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        h2
+            text-align: center
+            color: $white 
+            font-weight: bold
+            span
+                text-decoration: underline
+    .explanation
+        background: #F0F0F0
+        display: flex
+        justify-content: space-between
+        flex-direction: column
+        @include breakpoint(medium)
+            flex-direction: row 
+        p 
+            margin-top: 20px
+            margin-left: 20px 
+            margin-right: 20px
+            max-width: 546px
+            align-self: flex-start
+        img
+            width: 404px
+            align-self: flex-end 
+    .protest
+        padding-top: 11px
+        border-bottom: 1px solid black 
+        h3
+            text-indent: -5000px
+            background: url(http://sitesforchurch.s3.amazonaws.com/airtable-protest.png) no-repeat bottom center
+            height: 197px
+            max-width: 496px
+            margin-bottom: 0
+            margin-left: auto
+            margin-right: auto
+            background-size: contain
+    .case
+        display: flex
+        justify-content: space-between
+        flex-direction: column
+        @include breakpoint(large)
+            flex-direction: row 
+        img
+            width: 453px
+            height: 321px
+            align-self: center
+            margin-bottom: 40px
+            margin-top: 30px 
+            border: 8px solid #009688        
+            @include breakpoint(large)
+                margin-right: 30px
+                margin-bottom: 0 
+                margin-top: 0
+        .text 
+            max-width: 700px
+            padding: 20px
+            align-self: center
+            ul
+                margin-left: 50px
+.markdown
+    .band
+        background: #009688
+        height: 200px
+        width: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        h2
+            text-align: center
+            color: $white 
+            font-weight: bold
+            span
+                text-decoration: underline
+    .explanation
+        background: #F0F0F0
+        display: flex
+        justify-content: space-between
+        flex-direction: column
+        min-height: 320px
+        @include breakpoint(medium)
+            flex-direction: row 
+        p 
+            margin-top: 20px
+            margin-left: 20px 
+            margin-right: 20px
+            max-width: 546px
+            align-self: flex-start
+        img
+            width: 419px
+            align-self: flex-end 
+    .protest
+        padding-top: 11px
+        border-bottom: 1px solid black 
+        h3
+            text-indent: -5000px
+            background: url(http://sitesforchurch.s3.amazonaws.com/syntax-protest.png) no-repeat bottom center
+            height: 197px
+            max-width: 496px
+            margin-bottom: 0
+            margin-left: auto
+            margin-right: auto
+            background-size: contain
+    .case
+        display: flex
+        justify-content: space-between
+        flex-direction: column
+        @include breakpoint(large)
+            flex-direction: row 
+        img
+            width: 428px
+            height: 324px
+            align-self: center
+            margin-bottom: 40px
+            margin-top: 30px 
+            border: 8px solid #009688        
+            @include breakpoint(large)
+                margin-right: 30px
+                margin-bottom: 0 
+                margin-top: 0
+        .text 
+            max-width: 700px
+            padding: 20px
+            align-self: center
+            min-height: 380px
+            ul
+                margin-left: 50px
+

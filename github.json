@@ -1,0 +1,151 @@
+[{
+  "html_url": "https://github.com/omichelsen/angular-clipboard",
+  "name": "angular-clipboard",
+  "language": "JavaScript",
+  "description": "Copy to clipboard with AngularJS directive, without using Flash."
+}, {
+  "html_url": "https://github.com/omichelsen/angular-loggly-logger",
+  "name": "angular-loggly-logger",
+  "language": "JavaScript",
+  "description": "An AngularJS module which sends your $log message to loggly, and provides a service for manually sending messages to loggly."
+}, {
+  "html_url": "https://github.com/omichelsen/angular-resizable",
+  "name": "angular-resizable",
+  "language": "CSS",
+  "description": "A lightweight directive for creating resizable containers."
+}, {
+  "html_url": "https://github.com/omichelsen/angular-steps",
+  "name": "angular-steps",
+  "language": "JavaScript",
+  "description": "Split your UI into (wizard-like) steps in AngularJS."
+}, {
+  "html_url": "https://github.com/omichelsen/blog-social-signin-spa-jwt-server",
+  "name": "blog-social-signin-spa-jwt-server",
+  "language": "HTML",
+  "description": "Code example for article https://ole.michelsen.dk/blog/social-signin-spa-jwt-server.html"
+}, {
+  "html_url": "https://github.com/omichelsen/clipboard-button",
+  "name": "clipboard-button",
+  "language": "JavaScript",
+  "description": "Copy text to clipboard by clicking a button, using only vanilla javascript without Flash."
+}, {
+  "html_url": "https://github.com/omichelsen/compare-versions",
+  "name": "compare-versions",
+  "language": "JavaScript",
+  "description": "Compare semver version strings to find which is greater, equal or lesser."
+}, {
+  "html_url": "https://github.com/omichelsen/daily-glry",
+  "name": "daily-glry",
+  "language": "JavaScript",
+  "description": "Daily comic strip gallery with mobile/touch support."
+}, {
+  "html_url": "https://github.com/omichelsen/dn",
+  "name": "dn",
+  "language": "HTML",
+  "description": ""
+}, {
+  "html_url": "https://github.com/omichelsen/es6-promise",
+  "name": "es6-promise",
+  "language": "JavaScript",
+  "description": "A polyfill for ES6-style Promises"
+}, {
+  "html_url": "https://github.com/omichelsen/es6-promise-bower",
+  "name": "es6-promise-bower",
+  "language": "JavaScript",
+  "description": ""
+}, {
+  "html_url": "https://github.com/omichelsen/exif-gps-to-json-example",
+  "name": "exif-gps-to-json-example",
+  "language": "JavaScript",
+  "description": "Example code on how to save EXIF data from photos to a JSON file."
+}, {
+  "html_url": "https://github.com/omichelsen/express-ab",
+  "name": "express-ab",
+  "language": "JavaScript",
+  "description": "Middleware for AB testing in Express"
+}, {
+  "html_url": "https://github.com/omichelsen/express-gettext",
+  "name": "express-gettext",
+  "language": "JavaScript",
+  "description": "Translation module for express.js using Gettext and PO files"
+}, {
+  "html_url": "https://github.com/omichelsen/FormNavigation",
+  "name": "FormNavigation",
+  "language": "JavaScript",
+  "description": "jQuery plugin which lets you navigate form fields with arrow keys."
+}, {
+  "html_url": "https://github.com/omichelsen/glry",
+  "name": "glry",
+  "language": "JavaScript",
+  "description": "Image gallery with mobile/touch support and no dependencies."
+}, {
+  "html_url": "https://github.com/omichelsen/grunt-jsxgettext",
+  "name": "grunt-jsxgettext",
+  "language": "JavaScript",
+  "description": ""
+}, {
+  "html_url": "https://github.com/omichelsen/harp-less-compile",
+  "name": "harp-less-compile",
+  "language": "CSS",
+  "description": "Testing @include \"mixins\" with harp compile"
+}, {
+  "html_url": "https://github.com/omichelsen/hello.js",
+  "name": "hello.js",
+  "language": "JavaScript",
+  "description": "A Javascript RESTFUL API library for connecting with OAuth2 services, such as Google+ API, Facebook Graph and Windows Live Connect"
+}, {
+  "html_url": "https://github.com/omichelsen/hutt-alfred",
+  "name": "hutt-alfred",
+  "language": null,
+  "description": ""
+}, {
+  "html_url": "https://github.com/omichelsen/istanbul",
+  "name": "istanbul",
+  "language": "JavaScript",
+  "description": "Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests and browser tests. Built for scale."
+}, {
+  "html_url": "https://github.com/omichelsen/jquery-slideshow",
+  "name": "jquery-slideshow",
+  "language": "JavaScript",
+  "description": "The simplest jQuery slideshow plugin. Evar."
+}, {
+  "html_url": "https://github.com/omichelsen/karma-coverage",
+  "name": "karma-coverage",
+  "language": "CoffeeScript",
+  "description": "A Karma plugin. Generate code coverage."
+}, {
+  "html_url": "https://github.com/omichelsen/karma-ng-html2js-preprocessor",
+  "name": "karma-ng-html2js-preprocessor",
+  "language": "CoffeeScript",
+  "description": "A Karma plugin. Compile AngularJS templates to JavaScript on the fly."
+}, {
+  "html_url": "https://github.com/omichelsen/le_js",
+  "name": "le_js",
+  "language": "JavaScript",
+  "description": "Client-side JavaScript logging library for Logentries"
+}, {
+  "html_url": "https://github.com/omichelsen/logger",
+  "name": "logger",
+  "language": "JavaScript",
+  "description": "Simple logger can be used as wrapper for console, adds log output levels, multiple targets and history."
+}, {
+  "html_url": "https://github.com/omichelsen/meetbox-chrome",
+  "name": "meetbox-chrome",
+  "language": "JavaScript",
+  "description": ""
+}, {
+  "html_url": "https://github.com/omichelsen/mockfirebase",
+  "name": "mockfirebase",
+  "language": "JavaScript",
+  "description": "Firebase mock library for writing unit tests (experimental)"
+}, {
+  "html_url": "https://github.com/omichelsen/ng-annotate-webpack-plugin",
+  "name": "ng-annotate-webpack-plugin",
+  "language": "JavaScript",
+  "description": "Webpack plugin that runs ng-annotate on your bundles"
+}, {
+  "html_url": "https://github.com/omichelsen/ng-clip",
+  "name": "ng-clip",
+  "language": "JavaScript",
+  "description": "Copy to clipboard using AngularJS"
+}]

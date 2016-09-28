@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="blogPost">
+        <div class="blogPost__header">
+            <h1>{{ page.title }}</h1>
+            <p>Written by: {% if page.author %} {{ page.author }}{% endif %}  {% if page.date %} on {{ page.date | date: "%b %-d, %Y" }} {% endif %}</p>
+            {% if page.featured_image %}
+                {% for img in page.featured_image%}
+                <img src="{{img.url}}" alt="{{page.title}}">
+                {% endfor %}
+            {% else %}
+                <img src="http://placehold.it/560x315" alt="Blog Featured Image">
+            {% endif %}
+        </div><!--/blogPost__header-->
+        <div class="blogPost__content">
+            {{ page.body_content | markdownify }}
+        </div><!--/blogPost__content-->
+    </div><!--/blogPost-->

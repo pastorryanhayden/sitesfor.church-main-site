@@ -1,0 +1,469 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Start Here: What We Need\n#\n\n\n\n\n\n\n\nWhat you'll be getting from us:\n#\n\n\nWhen you \nsign-up\n for Sitesfor.church, you will get three things from us:\n\n\n1. A welcome email.\n#\n\n\nYou'll receive an email from us.  Basically, it will contain the same things you'll find on this page.\n\n\n2. An email from airtable.\n#\n\n\nYou'll receive an email from a company called \nAirtable\n requesting for you to collaborate on a team.  We need you to click the link on this email.  \nAirtable is the tool that you'll be using to update your website.\n \n\n\n3. A call from the site-rep.\n#\n\n\nYou will be getting a call from a person we call a \"site-rep.\"  The site-rep will be the person responsible for setting up your website and your go-to person for support.  The site-rep will schedule a second phone call where they can help you get comfortable with the site.\n\n\nWhat we need from you:\n#\n\n\n1. Start learning markdown.\n#\n\n\n\n\n\n\n\nYou have to know markdown to edit the information on the site.  Please take ten minutes to watch the video above and please start using Markdown today.  We think markdown is easy, but even still, it's the biggest technical thing we are going to ask you to learn.  We promise that if you take a few minutes to learn this, everything else will come easy.  \n\n\n\n\nWarning\n\n\nThis is very important.  If you don't take the time to learn Markdown, you are going to have a very hard time with this.  If you do - it will be awesome.\n\n\n\n\n2. Sign up for Airtable and start adding content.\n#\n\n\n\n\nAirtable is the tool that you'll be using to update your website.\n Go ahead and poke around, and start adding content.  Their is one \"base\" called \"Content_Collection\" - this is yours to mess with as much as you want and will be the primary place that you and your site-rep share files and information about setting up your site. \n\n\n3. Look over our documentation.\n#\n\n\nYou are here!\n  Continue to read through the information and watch the videos on this page.  It will tell you everything you need to know about updating your website.", 
+            "title": "Start Here"
+        }, 
+        {
+            "location": "/#start-here-what-we-need", 
+            "text": "", 
+            "title": "Start Here: What We Need"
+        }, 
+        {
+            "location": "/#what-youll-be-getting-from-us", 
+            "text": "When you  sign-up  for Sitesfor.church, you will get three things from us:", 
+            "title": "What you'll be getting from us:"
+        }, 
+        {
+            "location": "/#1-a-welcome-email", 
+            "text": "You'll receive an email from us.  Basically, it will contain the same things you'll find on this page.", 
+            "title": "1. A welcome email."
+        }, 
+        {
+            "location": "/#2-an-email-from-airtable", 
+            "text": "You'll receive an email from a company called  Airtable  requesting for you to collaborate on a team.  We need you to click the link on this email.   Airtable is the tool that you'll be using to update your website.", 
+            "title": "2. An email from airtable."
+        }, 
+        {
+            "location": "/#3-a-call-from-the-site-rep", 
+            "text": "You will be getting a call from a person we call a \"site-rep.\"  The site-rep will be the person responsible for setting up your website and your go-to person for support.  The site-rep will schedule a second phone call where they can help you get comfortable with the site.", 
+            "title": "3. A call from the site-rep."
+        }, 
+        {
+            "location": "/#what-we-need-from-you", 
+            "text": "", 
+            "title": "What we need from you:"
+        }, 
+        {
+            "location": "/#1-start-learning-markdown", 
+            "text": "You have to know markdown to edit the information on the site.  Please take ten minutes to watch the video above and please start using Markdown today.  We think markdown is easy, but even still, it's the biggest technical thing we are going to ask you to learn.  We promise that if you take a few minutes to learn this, everything else will come easy.     Warning  This is very important.  If you don't take the time to learn Markdown, you are going to have a very hard time with this.  If you do - it will be awesome.", 
+            "title": "1. Start learning markdown."
+        }, 
+        {
+            "location": "/#2-sign-up-for-airtable-and-start-adding-content", 
+            "text": "Airtable is the tool that you'll be using to update your website.  Go ahead and poke around, and start adding content.  Their is one \"base\" called \"Content_Collection\" - this is yours to mess with as much as you want and will be the primary place that you and your site-rep share files and information about setting up your site.", 
+            "title": "2. Sign up for Airtable and start adding content."
+        }, 
+        {
+            "location": "/#3-look-over-our-documentation", 
+            "text": "You are here!   Continue to read through the information and watch the videos on this page.  It will tell you everything you need to know about updating your website.", 
+            "title": "3. Look over our documentation."
+        }, 
+        {
+            "location": "/intro/", 
+            "text": "Introduction: We Make Weird Websites!\n#\n\n\nNothing about Sitesfor.Church is normal:  \n\n\n\n\nOur founder is a pastor.  \n\n\nOur team members live all across the world.  \n\n\nOur main office is in a garage.  \n\n\nWe are more interested in helping small churches than we are in making money. \n\n\n\n\n...The list goes on and on.\n\n\nBut it's not just us that are weird - our websites are weird too.\n While we might just be \n\"weird weird\"\n, our sites are \n\"awesome weird.\"\n  We may do things differently, but we do them differently for very good reasons.  \n\n\nThe biggest single difference between your website and 99% of the websites out there is that it is \nstatic.\n\n\nI. Weird Sites: Static Sites\n#\n\n\nWe are sorry to bore you with this technical mumbo-jumbo but \nit's important for you to understand one thing about your website\n: \n\n\n\n\n99% of websites are \nprograms\n, your website is just \nstatic files\n.\n\n\n\n\nNow, this doesn't mean that your website isn't easy to update - you'll find it EASIER to update than almost anything out there.  It also doesn't mean that you can't do amazing things - you can.  It just means that your data, your website, and the program putting it together are all on different computers.\n\n\n\n\nFirst, the bad news.\n#\n\n\nThe only downside to this approach is \ntime\n.  Whereas on most websites, your updates happen \nimmediately\n, on our system you have to wait until a script runs before you see changes to your site.  This should never take more than thirty minutes.\n\n\nNow, onto...\n\n\n\n\nLots of Good News\n#\n\n\nYour website will be really fast.\n#\n\n\nBecause your website is just a bunch of flat files, the server doesn't have to do anything when a user requests a page.  Translation - it's going to seem like it's flying.  People might not know what's different about your site but they will notice something.\n\n\nYour website will be really secure.\n#\n\n\nNo program running on a server means no program to hack.  Believe me, as someone who has gone through the pain of having a wordpress site hacked more than once, this is a really good thing.  Without access to the server credentials (and I'm not giving them away) it's impossible for your site to be hacked.\n\n\nYour website won't break.\n#\n\n\nBecause there is nothing on the server besides a bunch of files - there is nothing to break on your website.  If something ever goes wrong, it happens during the build process and your live site isn't effected.\n\n\nHosting for your website is cheaper.\n#\n\n\nOne of the reasons our prices can be so low is because static sites aren't just better - they allow us to save money on hosting costs.  Static sites mean more money is going to the site-rep and less money is going into infrastructure.\n\n\nAre you the only guys doing static sites?\n#\n\n\nHeavens no!\n  For the reasons above, static sites are getting more and more popular.  Many companies large companies run huge parts of their sites this way including:\n\n\n\n\nNest\n\n\nGoogle\n\n\nMailchimp\n\n\nVox media\n\n\nNetflix (their blog and documentation)\n\n\nmany, many more.\n\n\n\n\nIf you are a geek at heart and care to learn more about this trend, you can read a \ngreat write-up about it here\n.\n\n\nII. Weird Tools: Airtable, Markdown, Image Editing\n#\n\n\n\n\nIn my kitchen I have a drawer full of single use kitchen gadgets that I almost never use.  Someone taught me early on that if you know how to use a chef's knife, you don't need 90% of those kitchen gadgets.  At sitesfor.church we try to use \"chef's knife\" tools.  Their may be a slight learning curve (we'll help you) but the benefits are awesome.\n\n\n\n\n\n\n\n\n\nTool 1: Airtable\n#\n\n\nAirtable is a fantastic web app that you will use to manage your website.  It has great features like drag and drop file uploading, sharing, backups and real-time collaboration that would be almost impossible to build into a church website.  It also has great native iOS and Android apps so you can update your website with the computer in your pocket.  We think you'll love it.\n\n\nYou can use Airtable for all kinds of stuff beyond your church website.  At Bible Baptist Church (Ryan's church) we use it for event sign ups, prayer requests, attendance tracking, reimbursements, and planning special music.  It's an incredibly powerful tool that's ridiculously easy to use.\n\n\n\n\nTool 2: Markdown\n#\n\n\nMarkdown is a plain text writing syntax.  In other words, it's not a program, it's a bunch of rules for writing text.  You can learn the basics of Markdown in less than 10 minutes.  \n\n\nSitesfor.church uses markdown for all of our text content.  Any field in Airtable where you would put long content you can enter Markdown.\n\n\n(Check out the intro to Markdown below:)\n\n\n\n\n\n\n\nYou can write markdown anywhere (including right in Airtable), but while you are learning we recommend a free web app called \nClasseur\n.   We make sure that near all of our text content fields there is a link to Classeur.\n\n\nAt Bible Baptist, all of our sermons, sermon handouts, and even slides are written using markdown.  It's a pretty amazing system that saves us hours  of time.\n\n\nBesides Classeur, here are some other Markdowns tools we recommend.  They are of varying quality and price.  (We will let you know our favorite from each group.):\n\n\nFor Windows:\n#\n\n\n\n\nTypora\n (Our favorite.)\n\n\nMarkdownPad\n\n\nRemarkable\n\n\n\n\nFor the Mac:\n#\n\n\nThere are DOZENS of Mac markdown tools. We've narrowed it down to these tools for Mac that are really, really, good.\n\n\n\n\niA Writer\n (Our favorite.)\n\n\nUlysses\n\n\nByword\n\n\nWrite\n\n\nTypora\n\n\n\n\nFor iOS:\n#\n\n\n\n\niA Writer\n (Our favorite.)\n\n\nUlysses\n\n\nByword\n\n\nWrite\n\n\n\n\nFor Android:\n#\n\n\n\n\niA Writer\n (Our favorite.)\n\n\nJotterPad\n\n\nMarkdownX\n\n\n\n\nWeb based:\n#\n\n\n\n\nClasseur\n (Obviously our favorite.)\n\n\nMarkable\n\n\nDillinger\n\n\nStackedit\n\n\n\n\n\n\nTool 3: Image Editing\n#\n\n\nThe last tool is image editing.  Good looking images are the heart of any great web design and we've found that the most common pain point for websites is adding images.  To help with that, we do four things:\n\n\nA. Keep it simple. (Just two image sizes)\n#\n\n\ni. Featured Images\n#\n\n\n\n\nAny time a field has the term \u201cfeatured image\u201d in it\u2019s name we are looking for a very specific kind of image. We are looking for an image with a 16x9 aspect ratio. Common 16x9 sizes include 1920x1080 (1080p) and 1280x720 (720p). Images that are this size are the same sizes of standard television screens and are the most common format for slide images.\n\n\nii. Thumbnails\n#\n\n\n\n\nAny time you see the term thumbnail in a field\u2019s title what we are looking for is a square image. At a minimum, we suggest an image that is at least 150x150 pixels. Thumbnails are almost always pictures of people, and one easy way to get thumbnail images is to reuse twitter or Facebook avatars.\n\n\nB. Defaults and fallbacks\n#\n\n\nImages are an important part of any web design and when your site uses current images - it will really come alive. But if you choose not to upload a custom featured image for a blog post, sermon series or event - we\u2019ve got you covered. Each theme comes with appropriate default images that will display when you don\u2019t want to create your own.\n\n\nC. Canva.com links\n#\n\n\n\n\nWhen you do want to create your own, we highly suggest a service called \nCanva.com\n. Canva.com is a webapp that makes it super easy to create great looking images. It\u2019s completely free to use unless you decide to use one of their stock images (which are very affordably priced.) Simply open canva and choose the \u201cPresentation (16:9)\u201d template. Customize it to your liking and then click the download button.\n\n\nD. Lots of tutorials\n#\n\n\nOn our \nblog\n there will be a lot of tutorials including tutorials on how to best use canva and another tool we recommend: \naffinity designer\n.", 
+            "title": "Intro - We Make Weird Websites"
+        }, 
+        {
+            "location": "/intro/#introduction-we-make-weird-websites", 
+            "text": "Nothing about Sitesfor.Church is normal:     Our founder is a pastor.    Our team members live all across the world.    Our main office is in a garage.    We are more interested in helping small churches than we are in making money.    ...The list goes on and on.  But it's not just us that are weird - our websites are weird too.  While we might just be  \"weird weird\" , our sites are  \"awesome weird.\"   We may do things differently, but we do them differently for very good reasons.    The biggest single difference between your website and 99% of the websites out there is that it is  static.", 
+            "title": "Introduction: We Make Weird Websites!"
+        }, 
+        {
+            "location": "/intro/#i-weird-sites-static-sites", 
+            "text": "We are sorry to bore you with this technical mumbo-jumbo but  it's important for you to understand one thing about your website :    99% of websites are  programs , your website is just  static files .   Now, this doesn't mean that your website isn't easy to update - you'll find it EASIER to update than almost anything out there.  It also doesn't mean that you can't do amazing things - you can.  It just means that your data, your website, and the program putting it together are all on different computers.", 
+            "title": "I. Weird Sites: Static Sites"
+        }, 
+        {
+            "location": "/intro/#first-the-bad-news", 
+            "text": "The only downside to this approach is  time .  Whereas on most websites, your updates happen  immediately , on our system you have to wait until a script runs before you see changes to your site.  This should never take more than thirty minutes.  Now, onto...", 
+            "title": "First, the bad news."
+        }, 
+        {
+            "location": "/intro/#lots-of-good-news", 
+            "text": "", 
+            "title": "Lots of Good News"
+        }, 
+        {
+            "location": "/intro/#your-website-will-be-really-fast", 
+            "text": "Because your website is just a bunch of flat files, the server doesn't have to do anything when a user requests a page.  Translation - it's going to seem like it's flying.  People might not know what's different about your site but they will notice something.", 
+            "title": "Your website will be really fast."
+        }, 
+        {
+            "location": "/intro/#your-website-will-be-really-secure", 
+            "text": "No program running on a server means no program to hack.  Believe me, as someone who has gone through the pain of having a wordpress site hacked more than once, this is a really good thing.  Without access to the server credentials (and I'm not giving them away) it's impossible for your site to be hacked.", 
+            "title": "Your website will be really secure."
+        }, 
+        {
+            "location": "/intro/#your-website-wont-break", 
+            "text": "Because there is nothing on the server besides a bunch of files - there is nothing to break on your website.  If something ever goes wrong, it happens during the build process and your live site isn't effected.", 
+            "title": "Your website won't break."
+        }, 
+        {
+            "location": "/intro/#hosting-for-your-website-is-cheaper", 
+            "text": "One of the reasons our prices can be so low is because static sites aren't just better - they allow us to save money on hosting costs.  Static sites mean more money is going to the site-rep and less money is going into infrastructure.", 
+            "title": "Hosting for your website is cheaper."
+        }, 
+        {
+            "location": "/intro/#are-you-the-only-guys-doing-static-sites", 
+            "text": "Heavens no!   For the reasons above, static sites are getting more and more popular.  Many companies large companies run huge parts of their sites this way including:   Nest  Google  Mailchimp  Vox media  Netflix (their blog and documentation)  many, many more.   If you are a geek at heart and care to learn more about this trend, you can read a  great write-up about it here .", 
+            "title": "Are you the only guys doing static sites?"
+        }, 
+        {
+            "location": "/intro/#ii-weird-tools-airtable-markdown-image-editing", 
+            "text": "In my kitchen I have a drawer full of single use kitchen gadgets that I almost never use.  Someone taught me early on that if you know how to use a chef's knife, you don't need 90% of those kitchen gadgets.  At sitesfor.church we try to use \"chef's knife\" tools.  Their may be a slight learning curve (we'll help you) but the benefits are awesome.", 
+            "title": "II. Weird Tools: Airtable, Markdown, Image Editing"
+        }, 
+        {
+            "location": "/intro/#tool-1-airtable", 
+            "text": "Airtable is a fantastic web app that you will use to manage your website.  It has great features like drag and drop file uploading, sharing, backups and real-time collaboration that would be almost impossible to build into a church website.  It also has great native iOS and Android apps so you can update your website with the computer in your pocket.  We think you'll love it.  You can use Airtable for all kinds of stuff beyond your church website.  At Bible Baptist Church (Ryan's church) we use it for event sign ups, prayer requests, attendance tracking, reimbursements, and planning special music.  It's an incredibly powerful tool that's ridiculously easy to use.", 
+            "title": "Tool 1: Airtable"
+        }, 
+        {
+            "location": "/intro/#tool-2-markdown", 
+            "text": "Markdown is a plain text writing syntax.  In other words, it's not a program, it's a bunch of rules for writing text.  You can learn the basics of Markdown in less than 10 minutes.    Sitesfor.church uses markdown for all of our text content.  Any field in Airtable where you would put long content you can enter Markdown.  (Check out the intro to Markdown below:)    You can write markdown anywhere (including right in Airtable), but while you are learning we recommend a free web app called  Classeur .   We make sure that near all of our text content fields there is a link to Classeur.  At Bible Baptist, all of our sermons, sermon handouts, and even slides are written using markdown.  It's a pretty amazing system that saves us hours  of time.  Besides Classeur, here are some other Markdowns tools we recommend.  They are of varying quality and price.  (We will let you know our favorite from each group.):", 
+            "title": "Tool 2: Markdown"
+        }, 
+        {
+            "location": "/intro/#for-windows", 
+            "text": "Typora  (Our favorite.)  MarkdownPad  Remarkable", 
+            "title": "For Windows:"
+        }, 
+        {
+            "location": "/intro/#for-the-mac", 
+            "text": "There are DOZENS of Mac markdown tools. We've narrowed it down to these tools for Mac that are really, really, good.   iA Writer  (Our favorite.)  Ulysses  Byword  Write  Typora", 
+            "title": "For the Mac:"
+        }, 
+        {
+            "location": "/intro/#for-ios", 
+            "text": "iA Writer  (Our favorite.)  Ulysses  Byword  Write", 
+            "title": "For iOS:"
+        }, 
+        {
+            "location": "/intro/#for-android", 
+            "text": "iA Writer  (Our favorite.)  JotterPad  MarkdownX", 
+            "title": "For Android:"
+        }, 
+        {
+            "location": "/intro/#web-based", 
+            "text": "Classeur  (Obviously our favorite.)  Markable  Dillinger  Stackedit", 
+            "title": "Web based:"
+        }, 
+        {
+            "location": "/intro/#tool-3-image-editing", 
+            "text": "The last tool is image editing.  Good looking images are the heart of any great web design and we've found that the most common pain point for websites is adding images.  To help with that, we do four things:", 
+            "title": "Tool 3: Image Editing"
+        }, 
+        {
+            "location": "/intro/#a-keep-it-simple-just-two-image-sizes", 
+            "text": "", 
+            "title": "A. Keep it simple. (Just two image sizes)"
+        }, 
+        {
+            "location": "/intro/#i-featured-images", 
+            "text": "Any time a field has the term \u201cfeatured image\u201d in it\u2019s name we are looking for a very specific kind of image. We are looking for an image with a 16x9 aspect ratio. Common 16x9 sizes include 1920x1080 (1080p) and 1280x720 (720p). Images that are this size are the same sizes of standard television screens and are the most common format for slide images.", 
+            "title": "i. Featured Images"
+        }, 
+        {
+            "location": "/intro/#ii-thumbnails", 
+            "text": "Any time you see the term thumbnail in a field\u2019s title what we are looking for is a square image. At a minimum, we suggest an image that is at least 150x150 pixels. Thumbnails are almost always pictures of people, and one easy way to get thumbnail images is to reuse twitter or Facebook avatars.", 
+            "title": "ii. Thumbnails"
+        }, 
+        {
+            "location": "/intro/#b-defaults-and-fallbacks", 
+            "text": "Images are an important part of any web design and when your site uses current images - it will really come alive. But if you choose not to upload a custom featured image for a blog post, sermon series or event - we\u2019ve got you covered. Each theme comes with appropriate default images that will display when you don\u2019t want to create your own.", 
+            "title": "B. Defaults and fallbacks"
+        }, 
+        {
+            "location": "/intro/#c-canvacom-links", 
+            "text": "When you do want to create your own, we highly suggest a service called  Canva.com . Canva.com is a webapp that makes it super easy to create great looking images. It\u2019s completely free to use unless you decide to use one of their stock images (which are very affordably priced.) Simply open canva and choose the \u201cPresentation (16:9)\u201d template. Customize it to your liking and then click the download button.", 
+            "title": "C. Canva.com links"
+        }, 
+        {
+            "location": "/intro/#d-lots-of-tutorials", 
+            "text": "On our  blog  there will be a lot of tutorials including tutorials on how to best use canva and another tool we recommend:  affinity designer .", 
+            "title": "D. Lots of tutorials"
+        }, 
+        {
+            "location": "/reps/", 
+            "text": "III. The Fourth Tool: Your Site Rep\n#\n\n\nAs soon as you sign up for sitesfor.church you will be assinged a site-rep.  Our site-reps are all guys who love God, love church, and love computers.  Most of them are Bible college students or people ministering in small churches.  \n\n\n\n\n\n\n\nThe site rep is the person responsible for: \n\n\n\n\nmaking sure your site gets set up to your liking.\n\n\nhelping you and your volunteers get comfortable using it.\n\n\nbeing your primary contact for support or help.\n\n\n\n\nYou should get a phone call from a site-rep within 24 hours after signing up for sitesfor.church, they'll setup a time for a longer phone call and begin working on your getting your site ready.", 
+            "title": "Site Reps - your biggest asset"
+        }, 
+        {
+            "location": "/reps/#iii-the-fourth-tool-your-site-rep", 
+            "text": "As soon as you sign up for sitesfor.church you will be assinged a site-rep.  Our site-reps are all guys who love God, love church, and love computers.  Most of them are Bible college students or people ministering in small churches.      The site rep is the person responsible for:    making sure your site gets set up to your liking.  helping you and your volunteers get comfortable using it.  being your primary contact for support or help.   You should get a phone call from a site-rep within 24 hours after signing up for sitesfor.church, they'll setup a time for a longer phone call and begin working on your getting your site ready.", 
+            "title": "III. The Fourth Tool: Your Site Rep"
+        }, 
+        {
+            "location": "/airtable-basics/", 
+            "text": "Managing your site with Airtable\n#\n\n\n\n\n\n\n\nThe main place where your website will be managed is in Airtable.  You can access \nAirtable.com\n.  \n\n\nYou'll be receiving an invite to Airtable via email and can start updating it immediately.\n \n\n\nOnce you are in Airtable, you'll notice several \"bases\" these are where your site will be managed. \n\n\n\n\nI. Sharing Access\n#\n\n\n\n\nOne of the chief advantages of Airtable is it's sharing features. You can easily give access to collaborators to either your whole website or just one section of it. There are two ways to share access to site:\n\n\n1. Team Access\n#\n\n\n \n\n\nTo share access to all of your website bases, you can grant \"team access.\"  Click the green \"share\" button over your bases.  This will open a window where you can grant team access by just adding people's email addresses.\n\n\n2. Base Access\n#\n\n\n\n\nIf you only want to share access to one part of the site (like giving access to your only your sermons to the church sound guy) you can grant base access.  To grant base access, click on the little downward facing arrow under a base icon, then click the \"sharing\" option.  This will open a similar menu to the base access menu shown above where you can grant access to a contributor via email.\n\n\nII. Adding Content (The Basics)\n#\n\n\n\n\n\n\n\nThe Double Arrow is your friend.\n#\n\n\n\n\nOnce you've clicked on the base you want to add too (i.e. Sermons) you can add content just as you would in a spreadsheet like Microsoft Excel or Google Sheets.  But you'll probably want to use the form view.  You can access the form view by click on the little double arrow icon at the beginning of the row.\n\n\nThat will open the form view you can see here:\n\n\n\n\nMind the dots.\n#\n\n\n\n\nAirtable doesn't let us integrate other products (like Classeur or Canva) into the form view yet, but we can add links at the top of the rows in the grid view.  Anytime you see a dot next to the file name, hovering over it will give you access to a helpful link.\n\n\nIII. Deleting Content\n#\n\n\n\n\n\n\n\nIt's very easy to delete content, but the process is slightly different depending on whether you are in grid view or form view.\n\n\nIn Grid View\n#\n\n\nWhen you hover over the number at the far left of the grid view, it turns into a checkbox.  \n\n\n\n\nYou can check as many rows as you want and then right click and select \"delete selected records.\"\n\n\n\n\nIn Form View\n#\n\n\n\n\nYou can delete individual records in form view.  Simple click on the small downward facing arrow next to the name at the top and select \"Delete Record.\"\n\n\nIV. Updating Content (Temporary)\n#\n\n\n\n\nCurrently, when you update a record, you must click the \"Updated_At\" field, then the today button.  This allows our system to know that the content has been updated recently so that we can rebuild your site and upload the changes.\n\n\nAirtable has assured us that this will be unnecessary very soon. \n\n\nV. Content Collection and Contact Responses\n#\n\n\n\n\n\n\n\nThe standard bases that come with a sitesfor.church site are:\n\n\n\n\nSermons\n\n\nAbout Pages\n\n\nBlog\n\n\nMinistries\n\n\nContent Collection\n\n\nContact Responses\n\n\n\n\n\n\nOnly four of these bases update content on your website. \n They are Sermons, About Pages, Blog and Ministries.  There are whole pages in the documentation dedicated to each one of these.\n\n\nThe other two: \nContent Collection and Contact Responses\n have different purposes...\n\n\n\n\nContent Collection\n#\n\n\nThe sole purpose of the content collection base is to serve as a place to communicate with your site-rep during the setup process.  In it you can upload content and files as well as communicate with your site rep about what you need from each other.  \nNone of the stuff on this base will not find it's way onto the live site unless the site-rep puts it there.\n\n\nContact Responses\n#\n\n\nWhen a visitor to your site uses the contact form, you'll receive an email and the response will be recorded in the \"contact responses table.\" This table just serves as a backup or alternate viewing place for for comments you received through the contact form.", 
+            "title": "1. Basics - managing your site with airtable"
+        }, 
+        {
+            "location": "/airtable-basics/#managing-your-site-with-airtable", 
+            "text": "The main place where your website will be managed is in Airtable.  You can access  Airtable.com .    You'll be receiving an invite to Airtable via email and can start updating it immediately.    Once you are in Airtable, you'll notice several \"bases\" these are where your site will be managed.", 
+            "title": "Managing your site with Airtable"
+        }, 
+        {
+            "location": "/airtable-basics/#i-sharing-access", 
+            "text": "One of the chief advantages of Airtable is it's sharing features. You can easily give access to collaborators to either your whole website or just one section of it. There are two ways to share access to site:", 
+            "title": "I. Sharing Access"
+        }, 
+        {
+            "location": "/airtable-basics/#1-team-access", 
+            "text": "To share access to all of your website bases, you can grant \"team access.\"  Click the green \"share\" button over your bases.  This will open a window where you can grant team access by just adding people's email addresses.", 
+            "title": "1. Team Access"
+        }, 
+        {
+            "location": "/airtable-basics/#2-base-access", 
+            "text": "If you only want to share access to one part of the site (like giving access to your only your sermons to the church sound guy) you can grant base access.  To grant base access, click on the little downward facing arrow under a base icon, then click the \"sharing\" option.  This will open a similar menu to the base access menu shown above where you can grant access to a contributor via email.", 
+            "title": "2. Base Access"
+        }, 
+        {
+            "location": "/airtable-basics/#ii-adding-content-the-basics", 
+            "text": "", 
+            "title": "II. Adding Content (The Basics)"
+        }, 
+        {
+            "location": "/airtable-basics/#the-double-arrow-is-your-friend", 
+            "text": "Once you've clicked on the base you want to add too (i.e. Sermons) you can add content just as you would in a spreadsheet like Microsoft Excel or Google Sheets.  But you'll probably want to use the form view.  You can access the form view by click on the little double arrow icon at the beginning of the row.  That will open the form view you can see here:", 
+            "title": "The Double Arrow is your friend."
+        }, 
+        {
+            "location": "/airtable-basics/#mind-the-dots", 
+            "text": "Airtable doesn't let us integrate other products (like Classeur or Canva) into the form view yet, but we can add links at the top of the rows in the grid view.  Anytime you see a dot next to the file name, hovering over it will give you access to a helpful link.", 
+            "title": "Mind the dots."
+        }, 
+        {
+            "location": "/airtable-basics/#iii-deleting-content", 
+            "text": "It's very easy to delete content, but the process is slightly different depending on whether you are in grid view or form view.", 
+            "title": "III. Deleting Content"
+        }, 
+        {
+            "location": "/airtable-basics/#in-grid-view", 
+            "text": "When you hover over the number at the far left of the grid view, it turns into a checkbox.     You can check as many rows as you want and then right click and select \"delete selected records.\"", 
+            "title": "In Grid View"
+        }, 
+        {
+            "location": "/airtable-basics/#in-form-view", 
+            "text": "You can delete individual records in form view.  Simple click on the small downward facing arrow next to the name at the top and select \"Delete Record.\"", 
+            "title": "In Form View"
+        }, 
+        {
+            "location": "/airtable-basics/#iv-updating-content-temporary", 
+            "text": "Currently, when you update a record, you must click the \"Updated_At\" field, then the today button.  This allows our system to know that the content has been updated recently so that we can rebuild your site and upload the changes.  Airtable has assured us that this will be unnecessary very soon.", 
+            "title": "IV. Updating Content (Temporary)"
+        }, 
+        {
+            "location": "/airtable-basics/#v-content-collection-and-contact-responses", 
+            "text": "The standard bases that come with a sitesfor.church site are:   Sermons  About Pages  Blog  Ministries  Content Collection  Contact Responses    Only four of these bases update content on your website.   They are Sermons, About Pages, Blog and Ministries.  There are whole pages in the documentation dedicated to each one of these.  The other two:  Content Collection and Contact Responses  have different purposes...", 
+            "title": "V. Content Collection and Contact Responses"
+        }, 
+        {
+            "location": "/airtable-basics/#content-collection", 
+            "text": "The sole purpose of the content collection base is to serve as a place to communicate with your site-rep during the setup process.  In it you can upload content and files as well as communicate with your site rep about what you need from each other.   None of the stuff on this base will not find it's way onto the live site unless the site-rep puts it there.", 
+            "title": "Content Collection"
+        }, 
+        {
+            "location": "/airtable-basics/#contact-responses", 
+            "text": "When a visitor to your site uses the contact form, you'll receive an email and the response will be recorded in the \"contact responses table.\" This table just serves as a backup or alternate viewing place for for comments you received through the contact form.", 
+            "title": "Contact Responses"
+        }, 
+        {
+            "location": "/Adding-basic-info/", 
+            "text": "Video Overview\n#\n\n\n\n\n\n\n\nNote\n\n\nConvention:\n If a table starts with \"Instructions\" it's intended to be a single row table.  Only the information put in row 1 will matter and be used.\n\n\n\n\nMain Church Info\n#\n\n\nThe \"Main Stuff\" tab controls the following:\n\n\n\n\nChurch Name:\n The church name as it is displayed in several parts of the site.\n\n\nChurch Tagline:\n Sometimes a church has a tagline \"i.e. The friendly church\" that they want displayed.  Not all themes accept this.\n\n\nChurch Logo:\n This is where the church logo file is kept.  Your site rep will help you get the logo file to be what it needs to be.\n\n\n\n\nService Schedule\n#\n\n\n\n\nThe \"Service_Schedule\" tab is where the service schedule (prominently displayed on all themes) is managed.  If you need to make changes to your service schedule - do it here.  \n\n\nPlease note - order does matter here.  The order the service schedule is in Airtable will be the order it is displayed on your site. \n\n\nContact Details\n#\n\n\nContact information is also prominently displayed on your site.  You can change it or add to it here.  \nThe Facebook, Twitter, and Youtube fields are optional and will never affect the look of your site.\n\n\nLocation Details (And Map)\n#\n\n\nThe \"Location\" tab is where you will manage your church's physical address as well as the map which is shown on the welcome page (and sometimes contact page).\n\n\n\n\nTo add a google map - simply go to \nhttp://maps.google.com\n and find your church using the search box.  Then click \"share\" and then \"embed.\"  \n\n\n\n\nCopy and paste the contents into the \"Google_Maps_Embed_Code\" field.  \nThen make two changes:\n\n\n\n\nChange where it says 'width=\"600\"' to 'width=\"100%\"'.\n\n\nChange where it says 'height=\"450\"' to 'height=\"400\"'. \n\n\n\n\nHome Page\n#\n\n\nThe last tab \"Home_Page\" allows you to tweak the text and main image on your home page.  Notice the following:\n\n\n\n\nIntro_Heading\n - The main heading on the home page.\n\n\nIntro_Text\n - The paragraph below the main heading and/or the paragraph in the footer of the page. \n\n\nMain_Image\n - the main hero image of the page.", 
+            "title": "2. Adding Basic Info and Home Page"
+        }, 
+        {
+            "location": "/Adding-basic-info/#video-overview", 
+            "text": "Note  Convention:  If a table starts with \"Instructions\" it's intended to be a single row table.  Only the information put in row 1 will matter and be used.", 
+            "title": "Video Overview"
+        }, 
+        {
+            "location": "/Adding-basic-info/#main-church-info", 
+            "text": "The \"Main Stuff\" tab controls the following:   Church Name:  The church name as it is displayed in several parts of the site.  Church Tagline:  Sometimes a church has a tagline \"i.e. The friendly church\" that they want displayed.  Not all themes accept this.  Church Logo:  This is where the church logo file is kept.  Your site rep will help you get the logo file to be what it needs to be.", 
+            "title": "Main Church Info"
+        }, 
+        {
+            "location": "/Adding-basic-info/#service-schedule", 
+            "text": "The \"Service_Schedule\" tab is where the service schedule (prominently displayed on all themes) is managed.  If you need to make changes to your service schedule - do it here.    Please note - order does matter here.  The order the service schedule is in Airtable will be the order it is displayed on your site.", 
+            "title": "Service Schedule"
+        }, 
+        {
+            "location": "/Adding-basic-info/#contact-details", 
+            "text": "Contact information is also prominently displayed on your site.  You can change it or add to it here.   The Facebook, Twitter, and Youtube fields are optional and will never affect the look of your site.", 
+            "title": "Contact Details"
+        }, 
+        {
+            "location": "/Adding-basic-info/#location-details-and-map", 
+            "text": "The \"Location\" tab is where you will manage your church's physical address as well as the map which is shown on the welcome page (and sometimes contact page).   To add a google map - simply go to  http://maps.google.com  and find your church using the search box.  Then click \"share\" and then \"embed.\"     Copy and paste the contents into the \"Google_Maps_Embed_Code\" field.   Then make two changes:   Change where it says 'width=\"600\"' to 'width=\"100%\"'.  Change where it says 'height=\"450\"' to 'height=\"400\"'.", 
+            "title": "Location Details (And Map)"
+        }, 
+        {
+            "location": "/Adding-basic-info/#home-page", 
+            "text": "The last tab \"Home_Page\" allows you to tweak the text and main image on your home page.  Notice the following:   Intro_Heading  - The main heading on the home page.  Intro_Text  - The paragraph below the main heading and/or the paragraph in the footer of the page.   Main_Image  - the main hero image of the page.", 
+            "title": "Home Page"
+        }, 
+        {
+            "location": "/The-Welcome-Page/", 
+            "text": "At sitesfor.church we think the three most important things on your website are:\n\n\n\n\nYour contact information.\n\n\nYour service schedule.\n\n\nYour welcome page.\n\n\n\n\nMost visitors to your site are going to be looking for the first two, and we want to funnel them towards the \"welcome page\" - a special page designed to give first time or would be visitors to your church the information that they need to feel at ease when they visit.\n\n\nSome of the things that should be on a good welcome page are:\n\n\n\n\nA description of what your services are like.\n\n\nInformation about your children's ministries and nursery.\n\n\nSomething that answers the frequently asked questions visitors have like \"what do I wear?\", \"where do you meet?\" etc.\n\n\n\n\nThe welcome page base is designed to give you a great starting point for a fantastic welcome page.  There are a few things you should know about it:\n\n\n1. The welcome page has a \"banded\" design with each row in the database making up a \"band.\"\n#\n\n\nYou can have as many sections as you want.  Each row makes up a section.\n\n\n2. Each band has an optional image spot.  We recommend that you stagger the use of these.\n#\n\n\nIn most themes - the image will show to the right of the text.  It looks great for one or two so long as it's spread out.  But won't work for every one.\n\n\n3. The welcome page will always end with a map to your church.  We recommend that your last band have something that references that map and how to get to your church building.\n#\n\n\nThe map is controled by the \"Church Info\" \n \"Location\" tab.", 
+            "title": "3. Managing the Welcome Page"
+        }, 
+        {
+            "location": "/The-Welcome-Page/#1-the-welcome-page-has-a-banded-design-with-each-row-in-the-database-making-up-a-band", 
+            "text": "You can have as many sections as you want.  Each row makes up a section.", 
+            "title": "1. The welcome page has a \"banded\" design with each row in the database making up a \"band.\""
+        }, 
+        {
+            "location": "/The-Welcome-Page/#2-each-band-has-an-optional-image-spot-we-recommend-that-you-stagger-the-use-of-these", 
+            "text": "In most themes - the image will show to the right of the text.  It looks great for one or two so long as it's spread out.  But won't work for every one.", 
+            "title": "2. Each band has an optional image spot.  We recommend that you stagger the use of these."
+        }, 
+        {
+            "location": "/The-Welcome-Page/#3-the-welcome-page-will-always-end-with-a-map-to-your-church-we-recommend-that-your-last-band-have-something-that-references-that-map-and-how-to-get-to-your-church-building", 
+            "text": "The map is controled by the \"Church Info\"   \"Location\" tab.", 
+            "title": "3. The welcome page will always end with a map to your church.  We recommend that your last band have something that references that map and how to get to your church building."
+        }, 
+        {
+            "location": "/Working-with-sermons/", 
+            "text": "Working With Sermons\n#\n\n\nIf you are like most churches, the one thing that will get updated most often will be the sermon section.  \nWe are really proud of the sermon solution that we've built and we think it's easier than anything else out there.\n  Here are the steps to setting it up and using it.\n\n\n\n\nNote\n\n\nSermons will not work unless speakers and series are added first.\n\n\n\n\nI. Setup the Speakers\n#\n\n\n\n\n\n\n\nThe first step to setting up sermons is setting up the speakers.  This will probably not have to be done very often.  The only thing to keep in mind here is that \nthe thumbnail needs to be a square image\n.\n\n\nII. Adding Series\n#\n\n\n\n\n\n\n\nSeries play a big role in our sermon management system.  Adding series is pretty self-explanatory.  One key part of the series is the \"featured_image.\" The featured image must be a 16x9(widescreen) image.\n\n\nIII. Adding Sermons\n#\n\n\n\n\n\n\n\nAdding sermons is done the same way Series that you add series.  This time, choose the \"sermons\" tab of the \"sermons\" base and then work through the grid or through the form adding various content.  \n\n\nBear in mind that the \"body_content\" field needs to be \nMarkdown\n format.  If you need help writing markdown, we highly suggest the free web app \nClasseur.", 
+            "title": "4. Working with Sermons"
+        }, 
+        {
+            "location": "/Working-with-sermons/#working-with-sermons", 
+            "text": "If you are like most churches, the one thing that will get updated most often will be the sermon section.   We are really proud of the sermon solution that we've built and we think it's easier than anything else out there.   Here are the steps to setting it up and using it.   Note  Sermons will not work unless speakers and series are added first.", 
+            "title": "Working With Sermons"
+        }, 
+        {
+            "location": "/Working-with-sermons/#i-setup-the-speakers", 
+            "text": "The first step to setting up sermons is setting up the speakers.  This will probably not have to be done very often.  The only thing to keep in mind here is that  the thumbnail needs to be a square image .", 
+            "title": "I. Setup the Speakers"
+        }, 
+        {
+            "location": "/Working-with-sermons/#ii-adding-series", 
+            "text": "Series play a big role in our sermon management system.  Adding series is pretty self-explanatory.  One key part of the series is the \"featured_image.\" The featured image must be a 16x9(widescreen) image.", 
+            "title": "II. Adding Series"
+        }, 
+        {
+            "location": "/Working-with-sermons/#iii-adding-sermons", 
+            "text": "Adding sermons is done the same way Series that you add series.  This time, choose the \"sermons\" tab of the \"sermons\" base and then work through the grid or through the form adding various content.    Bear in mind that the \"body_content\" field needs to be  Markdown  format.  If you need help writing markdown, we highly suggest the free web app  Classeur.", 
+            "title": "III. Adding Sermons"
+        }, 
+        {
+            "location": "/Working-with-blogs/", 
+            "text": "Working With Blogs\n#\n\n\n\n\n\n\n\nBlogs on sitesfor.church are pretty straightforward.  To begin with, you'll want to add an author to the authors tab.  Then work across the grid (or down the form) adding the appropriate content.  Remember that the \"body_content\" needs to be in Markdown and the \"featured_image\" needs to be a 16x9 (widescreen) image.", 
+            "title": "5. Working with Blog Posts"
+        }, 
+        {
+            "location": "/Working-with-blogs/#working-with-blogs", 
+            "text": "Blogs on sitesfor.church are pretty straightforward.  To begin with, you'll want to add an author to the authors tab.  Then work across the grid (or down the form) adding the appropriate content.  Remember that the \"body_content\" needs to be in Markdown and the \"featured_image\" needs to be a 16x9 (widescreen) image.", 
+            "title": "Working With Blogs"
+        }, 
+        {
+            "location": "/Working-with-about-pages/", 
+            "text": "Working With About Pages\n#\n\n\n\n\n\n\n\n\n\nNote\n\n\nUpdates:\n We've added several new page types to about pages, with special bases for a \nLeadership page\n (i.e. our pastor), a \nBeliefs page\n, and a \nGospel presentation page\n.  You can still add as many other pages as you want using the \"Other_Pages\" tab.\n\n\n\n\nThe Leadership Page\n#\n\n\nThe staff page is designed to allow you to easily showcase your pastor, staff and even volunteers on your website.  \n\n\nEach row in the leadership base showcases one leader.  Rows will be displayed in the order they show on Airtable with one exception.  The Senior Pastor (Lead Pastor or whoever your main preacher is) will allways be displayed at the top of the page and will have some extra styling for emphasis.\n\n\nThe Beliefs Page\n#\n\n\n\n\nIn order to make your statement of faith a little more digestible, we've added some special styles and icons for each section.  The icons come from \nfont awesome\n and you can use any of the icons they provide (simply type the icon name, starting with \"fa\" - i.e. \"fa-icon-name\" into the field).  To make it simpler, we've provided you with a premade list of icons that we find work best with a statement of faith. \n\n\nThe Content field accepts markdown. \n\n\nThe Gospel Page\n#\n\n\nThe gospel page is a single-row base for displaying a gospel presentation on your site.  You can change the heading and featured image (a 16x9 image) and the content of the text using markdown.  \n\n\nWe plan on eventually adding several gospel presentations for you to choose from.  The one in the TOP row will be the one that displays on your site.\n\n\nAdding Other Pages\n#\n\n\nYou can add as many other \"About Us\" pages as you want.  Simply add them to the \n\"Other Pages\"\n tab.  \n\n\nAbout pages couldn't be simpler.  There are just just four fields:\n\n\n\n\nTitle\n\n\nBody_content\n\n\nFeatured_image\n\n\npublished. \n\n\n\n\nJust remember that, like every segment of the site, \"Body_content\" needs to be written in markdown and the \"featured_image\" needs to be a 16x9 (widescreen) image.", 
+            "title": "6. Working with About Pages"
+        }, 
+        {
+            "location": "/Working-with-about-pages/#working-with-about-pages", 
+            "text": "Note  Updates:  We've added several new page types to about pages, with special bases for a  Leadership page  (i.e. our pastor), a  Beliefs page , and a  Gospel presentation page .  You can still add as many other pages as you want using the \"Other_Pages\" tab.", 
+            "title": "Working With About Pages"
+        }, 
+        {
+            "location": "/Working-with-about-pages/#the-leadership-page", 
+            "text": "The staff page is designed to allow you to easily showcase your pastor, staff and even volunteers on your website.    Each row in the leadership base showcases one leader.  Rows will be displayed in the order they show on Airtable with one exception.  The Senior Pastor (Lead Pastor or whoever your main preacher is) will allways be displayed at the top of the page and will have some extra styling for emphasis.", 
+            "title": "The Leadership Page"
+        }, 
+        {
+            "location": "/Working-with-about-pages/#the-beliefs-page", 
+            "text": "In order to make your statement of faith a little more digestible, we've added some special styles and icons for each section.  The icons come from  font awesome  and you can use any of the icons they provide (simply type the icon name, starting with \"fa\" - i.e. \"fa-icon-name\" into the field).  To make it simpler, we've provided you with a premade list of icons that we find work best with a statement of faith.   The Content field accepts markdown.", 
+            "title": "The Beliefs Page"
+        }, 
+        {
+            "location": "/Working-with-about-pages/#the-gospel-page", 
+            "text": "The gospel page is a single-row base for displaying a gospel presentation on your site.  You can change the heading and featured image (a 16x9 image) and the content of the text using markdown.    We plan on eventually adding several gospel presentations for you to choose from.  The one in the TOP row will be the one that displays on your site.", 
+            "title": "The Gospel Page"
+        }, 
+        {
+            "location": "/Working-with-about-pages/#adding-other-pages", 
+            "text": "You can add as many other \"About Us\" pages as you want.  Simply add them to the  \"Other Pages\"  tab.    About pages couldn't be simpler.  There are just just four fields:   Title  Body_content  Featured_image  published.    Just remember that, like every segment of the site, \"Body_content\" needs to be written in markdown and the \"featured_image\" needs to be a 16x9 (widescreen) image.", 
+            "title": "Adding Other Pages"
+        }, 
+        {
+            "location": "/Working-with-ministry-pages/", 
+            "text": "Working With Ministry Pages\n#\n\n\n\n\n\n\n\nDoubtless, your church has many sub-group ministries like:\n\n\n\n\na youth group\n\n\na choir\n\n\na radio program\n\n\na mom's group\n\n\netc.\n\n\n\n\nMinistry pages are designed to give that subgroup a home on the web.  They are one page where members of that group can get contact information, recent photos, and upcoming group event details and where site visitors can find out about the ministries of your church.  Ministries are integrated both into the events and the photos section of the site.\n\n\nTo setup a ministry page, simply fill out the information in the Airtable form.  \n\n\n\n\nNote\n\n\nThere are a couple of Ministry only fields you should be aware of:\n\n\n\n\nShow_on_home_page\n#\n\n\nSome of our themes feature ministries on the home page.  If you are using one of those themes, this checkbox will let you determine which ministries you want featured.\n\n\nExclude from menus\n#\n\n\nFor the purpose of organizing your events and photos, you may want there to be some ministry options that you don't necessarily want a page for.  (Such as a church-wide option.)  This check box allows you to setup ministries that aren't available in the menu.\n\n\nGroup\n#\n\n\nThe \"group\" field is intended to show the subgroup this ministry caters too.  So, for example, our church's \"Classic Christians\" ministry caters to \"Senior Citizens\" and our \"Youth Group\" is for \"Middle and High School Students.\"\n\n\nLeader Information\n#\n\n\nYou may want to provide basic information about who is leading this ministry.  That is what the \"leader\" tab is for.  The reason it is separated into it's own tab is so that you can easily reuse leaders without haveing to re-enter their information every time.", 
+            "title": "7. Working with Ministry Pages"
+        }, 
+        {
+            "location": "/Working-with-ministry-pages/#working-with-ministry-pages", 
+            "text": "Doubtless, your church has many sub-group ministries like:   a youth group  a choir  a radio program  a mom's group  etc.   Ministry pages are designed to give that subgroup a home on the web.  They are one page where members of that group can get contact information, recent photos, and upcoming group event details and where site visitors can find out about the ministries of your church.  Ministries are integrated both into the events and the photos section of the site.  To setup a ministry page, simply fill out the information in the Airtable form.     Note  There are a couple of Ministry only fields you should be aware of:", 
+            "title": "Working With Ministry Pages"
+        }, 
+        {
+            "location": "/Working-with-ministry-pages/#show_on_home_page", 
+            "text": "Some of our themes feature ministries on the home page.  If you are using one of those themes, this checkbox will let you determine which ministries you want featured.", 
+            "title": "Show_on_home_page"
+        }, 
+        {
+            "location": "/Working-with-ministry-pages/#exclude-from-menus", 
+            "text": "For the purpose of organizing your events and photos, you may want there to be some ministry options that you don't necessarily want a page for.  (Such as a church-wide option.)  This check box allows you to setup ministries that aren't available in the menu.", 
+            "title": "Exclude from menus"
+        }, 
+        {
+            "location": "/Working-with-ministry-pages/#group", 
+            "text": "The \"group\" field is intended to show the subgroup this ministry caters too.  So, for example, our church's \"Classic Christians\" ministry caters to \"Senior Citizens\" and our \"Youth Group\" is for \"Middle and High School Students.\"", 
+            "title": "Group"
+        }, 
+        {
+            "location": "/Working-with-ministry-pages/#leader-information", 
+            "text": "You may want to provide basic information about who is leading this ministry.  That is what the \"leader\" tab is for.  The reason it is separated into it's own tab is so that you can easily reuse leaders without haveing to re-enter their information every time.", 
+            "title": "Leader Information"
+        }, 
+        {
+            "location": "/Working-with-events/", 
+            "text": "Working With Events\n#\n\n\n\n\n\nYour church probably has many church-wide and ministry events (like Vacation Bible School, special speakers, youth group activities, etc.).  If it's anything like mine, promoting and organizing those events is a constant challenge.\n\n\nThe events module is tied in with our ministries module to make it easy to display and promote events. Events will be displayed prominantly on:\n\n\n\n\nYour home page.\n\n\nYour calendar page.\n\n\nYour individual ministry pages.\n\n\n\n\n\n\nNote\n\n\nThere are a couple of Events only fields you should be aware of:\n\n\n\n\nDateTime\n#\n\n\nThis field is the date of the event, NOT the date that the event was posted.  This is important because our system uses this to filter events.\n\n\nfeatured_image\n#\n\n\nThis needs to be a 16x9 (widescreen) image.  I would highly recommend that you use \ncanva\n or another tool to create images for the things you want to promote.  Because these are a standard size you can use them in your promotion slides.\n\n\nMinistry\n#\n\n\nThis field allows you to link a ministry (or ministries.)  Doing this will show this event on the individual ministry page.", 
+            "title": "8. Working with Events"
+        }, 
+        {
+            "location": "/Working-with-events/#working-with-events", 
+            "text": "Your church probably has many church-wide and ministry events (like Vacation Bible School, special speakers, youth group activities, etc.).  If it's anything like mine, promoting and organizing those events is a constant challenge.  The events module is tied in with our ministries module to make it easy to display and promote events. Events will be displayed prominantly on:   Your home page.  Your calendar page.  Your individual ministry pages.    Note  There are a couple of Events only fields you should be aware of:", 
+            "title": "Working With Events"
+        }, 
+        {
+            "location": "/Working-with-events/#datetime", 
+            "text": "This field is the date of the event, NOT the date that the event was posted.  This is important because our system uses this to filter events.", 
+            "title": "DateTime"
+        }, 
+        {
+            "location": "/Working-with-events/#featured_image", 
+            "text": "This needs to be a 16x9 (widescreen) image.  I would highly recommend that you use  canva  or another tool to create images for the things you want to promote.  Because these are a standard size you can use them in your promotion slides.", 
+            "title": "featured_image"
+        }, 
+        {
+            "location": "/Working-with-events/#ministry", 
+            "text": "This field allows you to link a ministry (or ministries.)  Doing this will show this event on the individual ministry page.", 
+            "title": "Ministry"
+        }, 
+        {
+            "location": "/Working-with-photos/", 
+            "text": "Working With Photos\n#\n\n\n\n\n\nAdding Galleries\n#\n\n\nDepending on your theme, gallery images will be shown in these places:\n\n\n\n\nOn the gallery page.\n\n\nOn ministry pages.\n\n\nOn event pages. (coming soon)\n\n\nOn the home page (on some themes)\n\n\n\n\n\n\nPhotos are added through the \"Photos\" tab, of the \"Ministry base.\"\n\n\nTo add photos, simply work through either the grid view or form view being sure to:\n\n\n1. Give the gallery a title.\n#\n\n\nThe title will display above each individual gallery on the gallery page but will not show up anywhere else.\n\n\n2. Upload your photos.\n#\n\n\nYou can upload photos by dragging and dropping files onto the \"gallery\" cell. \nPlease note:\n You can and should add multiple photos to one cell.  Each row is for one \ngallery\n not for one \nphoto.\n\n\n3. Choose events and ministries this gallery belongs to.\n#\n\n\nThis is optional.\n  If you want the galleries to show up on ministry or event pages, choose the appropriate ministries or events from the ministry and events fields.\n\n\n\n\nNote\n\n\nPro Tip: Picassa, Instagram, Flickr, or Dropbox for photos.\n\n\n\n\n\n\nOne neat trick with photos is made possibly by Airtable's Picassa (Google Photos), Instagram, Flickr and Dropbox integrations.  If you use any of these services to manage your photos, you can easily access them to add to your galleries.  If you are primarily a phone photographer (and most people are) then this will save you a lot of time.", 
+            "title": "9. Working with Photos"
+        }, 
+        {
+            "location": "/Working-with-photos/#working-with-photos", 
+            "text": "", 
+            "title": "Working With Photos"
+        }, 
+        {
+            "location": "/Working-with-photos/#adding-galleries", 
+            "text": "Depending on your theme, gallery images will be shown in these places:   On the gallery page.  On ministry pages.  On event pages. (coming soon)  On the home page (on some themes)    Photos are added through the \"Photos\" tab, of the \"Ministry base.\"  To add photos, simply work through either the grid view or form view being sure to:", 
+            "title": "Adding Galleries"
+        }, 
+        {
+            "location": "/Working-with-photos/#1-give-the-gallery-a-title", 
+            "text": "The title will display above each individual gallery on the gallery page but will not show up anywhere else.", 
+            "title": "1. Give the gallery a title."
+        }, 
+        {
+            "location": "/Working-with-photos/#2-upload-your-photos", 
+            "text": "You can upload photos by dragging and dropping files onto the \"gallery\" cell.  Please note:  You can and should add multiple photos to one cell.  Each row is for one  gallery  not for one  photo.", 
+            "title": "2. Upload your photos."
+        }, 
+        {
+            "location": "/Working-with-photos/#3-choose-events-and-ministries-this-gallery-belongs-to", 
+            "text": "This is optional.   If you want the galleries to show up on ministry or event pages, choose the appropriate ministries or events from the ministry and events fields.   Note  Pro Tip: Picassa, Instagram, Flickr, or Dropbox for photos.    One neat trick with photos is made possibly by Airtable's Picassa (Google Photos), Instagram, Flickr and Dropbox integrations.  If you use any of these services to manage your photos, you can easily access them to add to your galleries.  If you are primarily a phone photographer (and most people are) then this will save you a lot of time.", 
+            "title": "3. Choose events and ministries this gallery belongs to."
+        }
+    ]
+}

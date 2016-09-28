@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="blogPost">
+        <div class="blogPost__header">
+            <h1>{{ page.records.fields.title }}</h1>
+            <p>Written by: {% if page.author %} {{ page.author }} {% else %} Sitesfor.church staff {% endif %}  {%if page.date%} on {{ page.date | date: "%b %-d, %Y" }} {% endif %}</p>
+            {% if page.featured_image %}
+            <img src="{{page.featured_image}}" alt="{{page.title}}">
+            {% else %}
+            <img src="http://placehold.it/560x315" alt="Blog Featured Image">
+            {% endif %}
+        </div><!--/blogPost__header-->
+        <div class="blogPost__content">
+            {{ content }}
+        </div><!--/blogPost__content-->
+    
+    </div><!--/blogPost-->
