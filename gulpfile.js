@@ -55,14 +55,14 @@
  gulp.task('css', () => {
    gulp.src(cssFiles)
    .pipe(sass())
-     .pipe(concat('all.css'))
-     .pipe(gulp.dest('assets'));
+     .pipe(concat('main.css'))
+     .pipe(gulp.dest('assets/css'));
       });
 
  gulp.task('serve', () => {
   browserSync.init({
     files: [siteRoot + '/**'],
-    port: 4000,
+    port: 3000,
     server: {
       baseDir: siteRoot
     }

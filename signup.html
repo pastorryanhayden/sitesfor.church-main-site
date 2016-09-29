@@ -37,6 +37,7 @@ layout: default
             <div class="viewer">
                 <img src="/assets/img/california-blue.png" alt="">
             </div><!--/viewer-->
+
             <div class="form">
                 <h2>Choose Your Theme</h2>
                 <p>Choose your theme and color scheme from the dropdown below. A preview will appear on the screen.
@@ -134,14 +135,14 @@ layout: default
                     away.</p>
 
                 <!--<form action="#">-->
-                    <input type="text" placeholder="Lead Pastor's Name" id="pastor_name" onkeyup="check_step5();"
-                           required>
-                    <input type="text" placeholder="Church physical address" id="church_address"
-                           onkeyup="check_step5();" required>
-                    <input type="text" placeholder="Church phone number" id="church_phone" onkeyup="check_step5();"
-                           required>
-                    <input type="text" placeholder="Church email address" id="church_email" onkeyup="check_step5();"
-                           required>
+                <input type="text" placeholder="Lead Pastor's Name" id="pastor_name" onkeyup="check_step5();"
+                       required>
+                <input type="text" placeholder="Church physical address" id="church_address"
+                       onkeyup="check_step5();" required>
+                <input type="text" placeholder="Church phone number" id="church_phone" onkeyup="check_step5();"
+                       required>
+                <input type="text" placeholder="Church email address" id="church_email" onkeyup="check_step5();"
+                       required>
                 <!--</form>-->
                 <button class="button" id="continue4" disabled>Choose &amp; Continue</button>
                 <progress max="100" value="60"></progress>
@@ -187,16 +188,16 @@ layout: default
                 <!--<div class="form">-->
                 <h2>Theme</h2>
                 <!--<form action="#">-->
-                    <select class="theme" id="theme_preview">
-                        <option value="California">California Theme</option>
-                        <option value="Virginia">Virginia Theme</option>
-                        <option value="New_England">New England Theme</option>
-                        <option value="Proclaim">Proclaim Theme (Personal/Evangelists)</option>
-                        <option value="Missionary">Go Theme (Missionaries)</option>
-                    </select>
-                    <p class="theme_description">California is a modern church theme, it features promoted series,
-                        ministries and events on the home page. For an example visit <a
-                                href="#">biblebaptistmattoon.org</a></p>
+                <select class="theme" id="theme_preview">
+                    <option value="California">California Theme</option>
+                    <option value="Virginia">Virginia Theme</option>
+                    <option value="New_England">New England Theme</option>
+                    <option value="Proclaim">Proclaim Theme (Personal/Evangelists)</option>
+                    <option value="Missionary">Go Theme (Missionaries)</option>
+                </select>
+                <p class="theme_description">California is a modern church theme, it features promoted series,
+                    ministries and events on the home page. For an example visit <a
+                            href="#">biblebaptistmattoon.org</a></p>
                 <!--</form>-->
                 <hr>
 
@@ -216,7 +217,8 @@ layout: default
                 <hr>
 
                 <h3>Service Schedule</h3>
-                <p>For each service in your service schedule, we've shown them below as they will appear in your website</p>
+                <p>For each service in your service schedule, we've shown them below as they will appear in your
+                    website</p>
                 <div class="service-schedules" id="service-schedule-container"></div>
                 <hr>
 
@@ -281,16 +283,18 @@ layout: default
                 <li class="bullet-item">Site Rep Support</li>
                 <li class="bullet-item">*<strong>Custom Missionary Section</strong></li>
                 <li class="cta-button">
-                    <script
-                            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                            data-key="pk_test_1MCYLYHQDa4DwnBoKd5CqoaP"
-                            data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-                            data-name="Sitesfor.Church Annually"
-                            data-description="$360 per year"
-                            data-panel-label="Subscribe"
-                            data-label="Subscribe"
-                            data-amount="36000">
-                    </script>
+                    <form action="https://siteforchurch-backend-nodejs.herokuapp.com/pay_annually" method="POST"
+                          id="pay_annually_form">
+                        <script
+                                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                data-key="pk_test_WpKHXgEN7vQ1Xql5CQN7VCxV"
+                                data-amount="36000"
+                                data-name="SITESfor.Church"
+                                data-description="One time Annual Charge"
+                                data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                                data-locale="auto">
+                        </script>
+                    </form>
                 </li>
             </ul>
             <ul class="pricing-table">
@@ -303,16 +307,18 @@ layout: default
                 <li class="bullet-item">Site Rep Support</li>
                 <li class="bullet-item"><strike><strong>Custom Missionary Section</strong></strike></li>
                 <li class="cta-button">
-                    <script
-                            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                            data-key="pk_test_1MCYLYHQDa4DwnBoKd5CqoaP"
-                            data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-                            data-name="Sitesfor.Church Monthy"
-                            data-description="$30 per month"
-                            data-panel-label="Subscribe"
-                            data-label="Subscribe"
-                            data-amount="3000">
-                    </script>
+                    <form action="https://siteforchurch-backend-nodejs.herokuapp.com/pay_monthly" method="POST"
+                          id="pay_monthly_form">
+                        <script
+                                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                data-key="pk_test_WpKHXgEN7vQ1Xql5CQN7VCxV"
+                                data-amount="3000"
+                                data-name="SITESfor.Church"
+                                data-description="One time Monthly Charge"
+                                data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                                data-locale="auto">
+                        </script>
+                    </form>
                 </li>
             </ul>
         </div><!--/payment-buttons-->

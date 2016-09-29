@@ -1,0 +1,83 @@
+---
+layout: default
+---
+<div class="signup-navigation">
+    <a href="#"><span>Step 1</span> <br> Choose A Theme</a>
+    <a href="#"><span>Step 2</span><br> Basic Info</a>
+    <a href="#"><span>Step 3</span> <br> Payment</a>
+</div><!--/signup-navigation-->
+
+<!--STEP 8-->
+<!--<div id="step8">-->
+    <div class="payment-page">
+        <div class="payment-explanation">
+            <h2>Payment</h2>
+            <p>You can pay for Sitesfor.Church either monthly or annually. There is no change in cost. <br>However, we
+                do
+                require at
+                least a one year commitment.</p>
+            <p>The checkout is handled by Stripe, one of the world's largest credit card processors, so your
+                data is
+                safe.</p>
+            <p>The price includes the domain, setup, hosting, and one theme customization per year.<br><em>We
+                prefer you to pay
+                annually, so we are offering our missionary organizer (normally a $25 fee) free for those
+                who pay
+                annually.</em></p>
+        </div><!--/payment-explanation-->
+        <div class="payment-buttons">
+            <ul class="pricing-table">
+                <li class="title">Pay Annually</li>
+                <li class="price">$360 <br>(per year)</li>
+                <li class="bullet-item">1 Site</li>
+                <li class="bullet-item">1 Template Customization per year</li>
+                <li class="bullet-item">Hosting &amp; Domain</li>
+                <li class="bullet-item">In depth training</li>
+                <li class="bullet-item">Site Rep Support</li>
+                <li class="bullet-item">*<strong>Custom Missionary Section</strong></li>
+                <li class="cta-button">
+                    <form action="http://localhost:1993/pay_annually" method="POST" id="pay_annually_form">
+                        <script
+                                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                data-key="pk_test_WpKHXgEN7vQ1Xql5CQN7VCxV"
+                                data-amount="36000"
+                                data-name="SITESfor.Church"
+                                data-description="One time Annual Charge"
+                                data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                                data-locale="auto">
+                        </script>
+                    </form>
+                </li>
+            </ul>
+            <ul class="pricing-table">
+                <li class="title">Pay Monthly</li>
+                <li class="price">$30 <br>(per month)</li>
+                <li class="bullet-item">1 Site</li>
+                <li class="bullet-item">1 Template Customization per year</li>
+                <li class="bullet-item">Hosting &amp; Domain</li>
+                <li class="bullet-item">In depth training</li>
+                <li class="bullet-item">Site Rep Support</li>
+                <li class="bullet-item"><strike><strong>Custom Missionary Section</strong></strike></li>
+                <li class="cta-button">
+                    <form action="http://localhost:1993/pay_monthly" method="POST" id="pay_monthly_form">
+                        <script
+                                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                data-key="pk_test_WpKHXgEN7vQ1Xql5CQN7VCxV"
+                                data-amount="3000"
+                                data-name="SITESfor.Church"
+                                data-description="One time Monthly Charge"
+                                data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                                data-locale="auto">
+                        </script>
+                    </form>
+                </li>
+            </ul>
+        </div><!--/payment-buttons-->
+
+    </div><!--/payment-page-->
+<!--</div>-->
+<!--STEP 8-->
+
+</div>
+</div><!--/wrapper-->
+</div><!--/signup-page-->

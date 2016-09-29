@@ -4188,7 +4188,7 @@ div.hero div.row {
 
 .hero__video a {
   display: block;
-  background: url(http://sitesfor.church/img/computervideo.png) no-repeat bottom center;
+  background: url(http://sitesforchurch.s3.amazonaws.com/bestsite.gif) no-repeat bottom center;
   width: 483px;
   height: 406px;
   line-height: 406px;
@@ -4498,6 +4498,9 @@ div.featuresGridRow {
     color: #D22E2E;
     font-weight: bold;
     margin-top: 20px; }
+  .teamMember.center {
+    margin-left: auto;
+    margin-right: auto; }
 
 .aboutUs__ourTools {
   text-align: center;
@@ -4705,6 +4708,315 @@ div.featuresGridRow {
       border-bottom: 2px solid gray;
       color: #a6a6a6;
       text-transform: uppercase; }
+  .signup-page.welcome .wrapper .form {
+    padding-top: 0;
+    padding-bottom: 60px; }
+    .signup-page.welcome .wrapper .form img {
+      margin-bottom: 30px; }
+    .signup-page.welcome .wrapper .form h2 {
+      text-align: center; }
+    .signup-page.welcome .wrapper .form p {
+      max-width: 100%;
+      text-align: center;
+      margin-bottom: 30px; }
+    .signup-page.welcome .wrapper .form a.button {
+      float: none;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+
+.signup-navigation {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+  max-width: 1000px; }
+  @media screen and (min-width: 40em) {
+    .signup-navigation {
+      flex-direction: row; } }
+  .signup-navigation a {
+    text-align: center;
+    color: gray;
+    text-transform: capitalize;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
+    @media screen and (min-width: 40em) {
+      .signup-navigation a {
+        flex-direction: row;
+        width: 33%; } }
+    .signup-navigation a span {
+      text-transform: capitalize;
+      font-size: 25px;
+      font-weight: bold; }
+  .signup-navigation a.active {
+    border-bottom: 3px solid #b7170b; }
+    .signup-navigation a.active span {
+      color: #b7170b; }
+
+.signup-page {
+  min-height: 80vh;
+  background-color: whitesmoke; }
+  .signup-page .wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column; }
+    @media screen and (min-width: 64em) {
+      .signup-page .wrapper {
+        flex-direction: row; } }
+    .signup-page .wrapper .viewer {
+      text-align: center;
+      align-self: center; }
+      @media screen and (min-width: 64em) {
+        .signup-page .wrapper .viewer {
+          width: 490px;
+          margin-left: auto;
+          margin-right: auto; } }
+    .signup-page .wrapper .form {
+      padding: 30px;
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      align-self: center; }
+      @media screen and (min-width: 64em) {
+        .signup-page .wrapper .form {
+          width: 50%; } }
+      .signup-page .wrapper .form h2 {
+        color: #F34235;
+        text-transform: capitalize;
+        text-align: center; }
+        @media screen and (min-width: 64em) {
+          .signup-page .wrapper .form h2 {
+            text-align: left; } }
+      .signup-page .wrapper .form a.button {
+        float: right; }
+      .signup-page .wrapper .form p {
+        color: #333333;
+        font-size: .9em;
+        max-width: 85%; }
+    .signup-page .wrapper select {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 2px solid gray;
+      color: #a6a6a6;
+      text-transform: capitalize; }
+
+.signup-page.step-2 .form {
+  max-width: 100%; }
+  @media screen and (min-width: 64em) {
+    .signup-page.step-2 .form {
+      width: 100%; } }
+  .signup-page.step-2 .form form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .signup-page.step-2 .form form input {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 2px solid gray;
+      color: #a6a6a6;
+      text-transform: capitalize; }
+      @media screen and (min-width: 40em) {
+        .signup-page.step-2 .form form input {
+          width: 48%; } }
+    @media screen and (min-width: 40em) {
+      .signup-page.step-2 .form form fieldset.url-box {
+        width: 48%; } }
+    .signup-page.step-2 .form form fieldset.url-box label {
+      color: #a6a6a6;
+      text-transform: capitalize;
+      font-size: 1em;
+      float: left;
+      margin-right: 20px; }
+    .signup-page.step-2 .form form fieldset.url-box input {
+      background-color: white;
+      border: 1px solid #202020; }
+  .signup-page.step-2 .form a.button {
+    background-color: #00BBD3; }
+  .signup-page.step-2 .form h3 {
+    color: #00BBD3; }
+
+.signup-page.step-3 .form {
+  max-width: 100%; }
+  @media screen and (min-width: 64em) {
+    .signup-page.step-3 .form {
+      width: 100%; } }
+  .signup-page.step-3 .form form div.service-row {
+    display: flex;
+    justify-content: space-between; }
+    .signup-page.step-3 .form form div.service-row input[type="checkbox"] {
+      width: 5%; }
+    .signup-page.step-3 .form form div.service-row input {
+      width: 45%;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 2px solid gray;
+      color: #a6a6a6;
+      text-transform: capitalize; }
+  .signup-page.step-3 .form h3 {
+    color: #00BBD3; }
+  .signup-page.step-3 .form a.button {
+    background-color: #00BBD3; }
+
+.signup-page.step-4 h3 {
+  color: #00BBD3; }
+
+.signup-page.step-4 a.button {
+  background-color: #00BBD3; }
+
+.signup-page.step-4 .form {
+  max-width: 100%; }
+  @media screen and (min-width: 64em) {
+    .signup-page.step-4 .form {
+      width: 100%; } }
+  .signup-page.step-4 .form form input {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid gray;
+    color: #a6a6a6;
+    text-transform: capitalize; }
+
+.review-page.step-4.step-3.step-2 a.button {
+  background-color: #F34235; }
+
+.review-page.step-4.step-3.step-2 form {
+  max-width: 100%; }
+  @media screen and (min-width: 64em) {
+    .review-page.step-4.step-3.step-2 form {
+      width: 100%; } }
+  .review-page.step-4.step-3.step-2 form div.service-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; }
+    .review-page.step-4.step-3.step-2 form div.service-row input[type="checkbox"] {
+      width: 5%; }
+    .review-page.step-4.step-3.step-2 form div.service-row input {
+      width: 45%;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 2px solid gray;
+      color: #a6a6a6;
+      text-transform: capitalize; }
+
+progress {
+  width: 100%;
+  height: 15px;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 0;
+  border-radius: 10px; }
+
+progress::-webkit-progress-bar {
+  width: 100%;
+  height: 15px;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 0;
+  border-radius: 10px; }
+
+progress::-webkit-progress-value {
+  background-color: #D22E2E; }
+
+.payment-page {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-wrap: wrap; }
+  @media screen and (min-width: 40em) {
+    .payment-page {
+      flex-wrap: nowrap; } }
+  .payment-page .payment-explanation {
+    width: 100%; }
+    @media screen and (min-width: 40em) {
+      .payment-page .payment-explanation {
+        width: 45%; } }
+    .payment-page .payment-explanation h2 {
+      color: #F34235;
+      text-transform: capitalize;
+      text-align: center; }
+      @media screen and (min-width: 40em) {
+        .payment-page .payment-explanation h2 {
+          text-align: left; } }
+    .payment-page .payment-explanation p {
+      color: #a6a6a6;
+      font-size: .9em;
+      max-width: 85%; }
+  .payment-page .payment-buttons {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between; }
+    @media screen and (min-width: 40em) {
+      .payment-page .payment-buttons {
+        width: 50%;
+        flex-wrap: nowrap;
+        margin-top: 50px; } }
+    .payment-page .payment-buttons a {
+      display: block;
+      padding: 15px;
+      background-color: #D22E2E;
+      text-align: center;
+      color: #ffffff;
+      max-width: 200px; }
+
+.pricing-table {
+  border: solid 1px #DDDDDD;
+  list-style-type: none;
+  width: 100%;
+  min-width: 200px;
+  text-align: center; }
+  @media screen and (min-width: 40em) {
+    .pricing-table {
+      width: 50%; } }
+  .pricing-table li {
+    border-bottom: dotted 1px #DDDDDD;
+    font-size: 0.75rem;
+    padding: 0.875rem 1.125rem; }
+    .pricing-table li:last-child {
+      border-bottom: 0; }
+    .pricing-table li a.button {
+      margin-left: auto;
+      margin-right: auto; }
+  .pricing-table .title {
+    background-color: #333333;
+    color: #EEEEEE;
+    font-size: 0.875rem;
+    border-bottom: 0; }
+  .pricing-table .price {
+    background-color: #F6F6F6;
+    color: #333333;
+    font-size: 1.75rem;
+    border-bottom: 0; }
+  .pricing-table .description {
+    color: #777777;
+    font-size: 0.625rem; }
+  .pricing-table .button {
+    margin: 0; }
+
+#step2, #step3, #step4, #step5, #step6, #step7, #step8 {
+  display: none; }
+
+.form .button {
+  background-color: #F34235; }
+
+.hint-schedule {
+  color: #333333;
+  font-style: italic; }
 
 .srdocs {
   display: flex;
@@ -4741,6 +5053,288 @@ div.templates {
     @media screen and (min-width: 40em) {
       div.templates .single-template {
         margin-bottom: 0; } }
+
+ul.about-menu {
+  list-style-type: none;
+  margin-left: 0;
+  display: flex;
+  background: #00BBD3;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0; }
+  ul.about-menu li {
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    min-width: 30%; }
+  ul.about-menu li.active {
+    background: #008ea0;
+    line-height: 50px;
+    min-width: 30%; }
+  ul.about-menu li a {
+    color: #ffffff;
+    text-transform: uppercase; }
+
+.aboutUs.websites {
+  padding-top: 0;
+  width: 100%;
+  max-width: 1200px;
+  background: #ffffff; }
+  .aboutUs.websites .banner {
+    background: url(http://sitesforchurch.s3.amazonaws.com/Header.jpg) no-repeat center center;
+    width: 100%;
+    height: 200px;
+    background-size: cover; }
+    @media screen and (min-width: 59.25em) {
+      .aboutUs.websites .banner {
+        width: 100%;
+        height: 396px;
+        background-size: cover; } }
+    .aboutUs.websites .banner h1 {
+      width: 100%;
+      height: 396px;
+      text-indent: -7000px;
+      margin-top: 0; }
+  .aboutUs.websites .banner2 {
+    color: #02B3CD; }
+    .aboutUs.websites .banner2 h2 {
+      font-weight: bold;
+      width: 324px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 40px;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+      .aboutUs.websites .banner2 h2 span {
+        color: #F34235;
+        font-size: 50px;
+        font-style: italic;
+        text-align: center; }
+
+.static .band {
+  background: #009688;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .static .band h2 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold; }
+    .static .band h2 span {
+      text-decoration: underline; }
+
+.static .explanation {
+  background: #F0F0F0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+  @media screen and (min-width: 40em) {
+    .static .explanation {
+      flex-direction: row; } }
+  .static .explanation p {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 546px;
+    align-self: flex-start; }
+  .static .explanation img {
+    width: 404px;
+    align-self: flex-end; }
+
+.static .protest {
+  padding-top: 11px;
+  border-bottom: 1px solid black; }
+  .static .protest h3 {
+    text-indent: -5000px;
+    background: url(http://sitesforchurch.s3.amazonaws.com/static-protest.png) no-repeat bottom center;
+    height: 197px;
+    max-width: 496px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain; }
+
+.static .case {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+  @media screen and (min-width: 64em) {
+    .static .case {
+      flex-direction: row; } }
+  .static .case img {
+    width: 453px;
+    height: 321px;
+    align-self: center;
+    margin-bottom: 40px;
+    margin-top: 30px; }
+    @media screen and (min-width: 64em) {
+      .static .case img {
+        margin-right: 30px;
+        margin-bottom: 0;
+        margin-top: 0; } }
+  .static .case .text {
+    max-width: 700px;
+    padding: 20px;
+    align-self: center; }
+    .static .case .text ol {
+      margin-left: 50px; }
+      .static .case .text ol h4 {
+        font-size: 22px;
+        font-weight: bold;
+        color: #009688; }
+
+.airtable .band {
+  background: #009688;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .airtable .band h2 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold; }
+    .airtable .band h2 span {
+      text-decoration: underline; }
+
+.airtable .explanation {
+  background: #F0F0F0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+  @media screen and (min-width: 40em) {
+    .airtable .explanation {
+      flex-direction: row; } }
+  .airtable .explanation p {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 546px;
+    align-self: flex-start; }
+  .airtable .explanation img {
+    width: 404px;
+    align-self: flex-end; }
+
+.airtable .protest {
+  padding-top: 11px;
+  border-bottom: 1px solid black; }
+  .airtable .protest h3 {
+    text-indent: -5000px;
+    background: url(http://sitesforchurch.s3.amazonaws.com/airtable-protest.png) no-repeat bottom center;
+    height: 197px;
+    max-width: 496px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain; }
+
+.airtable .case {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+  @media screen and (min-width: 64em) {
+    .airtable .case {
+      flex-direction: row; } }
+  .airtable .case img {
+    width: 453px;
+    height: 321px;
+    align-self: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    border: 8px solid #009688; }
+    @media screen and (min-width: 64em) {
+      .airtable .case img {
+        margin-right: 30px;
+        margin-bottom: 0;
+        margin-top: 0; } }
+  .airtable .case .text {
+    max-width: 700px;
+    padding: 20px;
+    align-self: center; }
+    .airtable .case .text ul {
+      margin-left: 50px; }
+
+.markdown .band {
+  background: #009688;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .markdown .band h2 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold; }
+    .markdown .band h2 span {
+      text-decoration: underline; }
+
+.markdown .explanation {
+  background: #F0F0F0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 320px; }
+  @media screen and (min-width: 40em) {
+    .markdown .explanation {
+      flex-direction: row; } }
+  .markdown .explanation p {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 546px;
+    align-self: flex-start; }
+  .markdown .explanation img {
+    width: 419px;
+    align-self: flex-end; }
+
+.markdown .protest {
+  padding-top: 11px;
+  border-bottom: 1px solid black; }
+  .markdown .protest h3 {
+    text-indent: -5000px;
+    background: url(http://sitesforchurch.s3.amazonaws.com/syntax-protest.png) no-repeat bottom center;
+    height: 197px;
+    max-width: 496px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain; }
+
+.markdown .case {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+  @media screen and (min-width: 64em) {
+    .markdown .case {
+      flex-direction: row; } }
+  .markdown .case img {
+    width: 428px;
+    height: 324px;
+    align-self: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    border: 8px solid #009688; }
+    @media screen and (min-width: 64em) {
+      .markdown .case img {
+        margin-right: 30px;
+        margin-bottom: 0;
+        margin-top: 0; } }
+  .markdown .case .text {
+    max-width: 700px;
+    padding: 20px;
+    align-self: center;
+    min-height: 380px; }
+    .markdown .case .text ul {
+      margin-left: 50px; }
 
 .slide-in-down.mui-enter {
   transition-duration: 500ms;
