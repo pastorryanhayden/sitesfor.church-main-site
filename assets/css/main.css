@@ -4343,7 +4343,7 @@ div.featuresGridRow {
   color: #ffffff; }
 
 .pricing .row {
-  background: url(http://sitesfor.church/img/money-guy.png) no-repeat bottom right;
+  background: url(http://sitesforchurch.s3.amazonaws.com/money-guy.png) no-repeat bottom right;
   height: 560px; }
   @media screen and (max-width: 39.9375em) {
     .pricing .row {
@@ -4414,7 +4414,7 @@ div.featuresGridRow {
 .launchingSoon {
   background: #00BBD3; }
   .launchingSoon .wrapper {
-    background: url(http://sitesfor.church/img/rocket.png) no-repeat bottom right;
+    background: url(http://sitesforchurch.s3.amazonaws.com/rocket.png) no-repeat bottom right;
     min-height: 680px;
     width: 100%;
     padding: 50px; }
@@ -4445,7 +4445,7 @@ div.featuresGridRow {
   background-color: #E1E1E1; }
   .testing .wrapper {
     min-height: 610px;
-    background: url(http://sitesfor.church/img/pig3.png) no-repeat bottom left;
+    background: url(http://sitesforchurch.s3.amazonaws.com/pig3.png) no-repeat bottom left;
     padding: 40px; }
   .testing h2 {
     font-size: 48px;
