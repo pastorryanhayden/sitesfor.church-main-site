@@ -39,14 +39,22 @@ span {
     }
 
 }
-.hero__video a {
+.hero__video  {
     display: block;
-    background: url(http://sitesforchurch.s3.amazonaws.com/bestsite.gif) no-repeat bottom center;
+    background: url(http://sitesforchurch.s3.amazonaws.com/computervideo.png) no-repeat bottom center;
     width: 483px;
     height: 406px;
     line-height: 406px;
     margin-left: auto;
     margin-right: auto; 
+    display: flex;
+    justify-content: center;
+    padding-top: 37px;
+
+    img {
+        width: 446px;
+        height: 252px;
+    }
 } 
 
 .hero__signup {
