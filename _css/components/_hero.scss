@@ -1,6 +1,8 @@
 div.hero {
-    background-image: url(http://sitesfor.church/img/hero.jpg);
-    background-size: cover;
+    // background-image: url(http://sitesfor.church/img/hero.jpg);
+    // background-size: cover;
+    // background: lighten($secondary-color, 55%);
+    background: lighten($light-gray, 25%);
 }
 div.hero div.row {
     margin-bottom: 0;
@@ -25,13 +27,15 @@ div.hero div.row {
     line-height: 80px;
 
 span {
-    color: $white;
+    color: $secondary-color;
+    text-transform: uppercase;
 }
 }
 .hero__header h3 {
     font-weight: normal;
     font-size: 35px;
-    color: $black;
+    color: darken($secondary-color, 15%);
+   
 }
 .hero__video {
     @include breakpoint(small down){
@@ -58,13 +62,14 @@ span {
 } 
 
 .hero__signup {
-    color: $white;
+    color: darken($secondary-color, 15%);
     font-size: 28px;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
+    // background: fade-out($secondary-color, .40);
     @include breakpoint(medium down){
         padding-bottom: 20px;
         padding-top: 20px;
@@ -77,11 +82,12 @@ span {
 
     hr {
         color: $white;
-        border-color: $white;
+        border-color: darken($secondary-color, 15%);
         width: 80%;
         border-width: 3px;
     }
     a.button.large {
         background-color: $primary-color;
+        font-weight: bold;
     }
 }

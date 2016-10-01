@@ -4127,7 +4127,8 @@ nav ul.main-menu {
         width: 130px; } }
   nav ul.main-menu li a {
     color: #ffffff;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-weight: 500; }
 
 nav ul.action-menu {
   display: flex;
@@ -4152,8 +4153,7 @@ nav ul.action-menu {
     color: #ffffff; }
 
 div.hero {
-  background-image: url(http://sitesfor.church/img/hero.jpg);
-  background-size: cover; }
+  background: whitesmoke; }
 
 div.hero div.row {
   margin-bottom: 0;
@@ -4175,12 +4175,13 @@ div.hero div.row {
   margin-bottom: 0;
   line-height: 80px; }
   .hero__header h1 span {
-    color: #ffffff; }
+    color: #00BBD3;
+    text-transform: uppercase; }
 
 .hero__header h3 {
   font-weight: normal;
   font-size: 35px;
-  color: #202020; }
+  color: #007787; }
 
 @media screen and (max-width: 39.9375em) {
   .hero__video {
@@ -4202,7 +4203,7 @@ div.hero div.row {
     height: 252px; }
 
 .hero__signup {
-  color: #ffffff;
+  color: #007787;
   font-size: 28px;
   text-align: center;
   padding-left: 20px;
@@ -4219,11 +4220,12 @@ div.hero div.row {
       padding-bottom: 30px; } }
   .hero__signup hr {
     color: #ffffff;
-    border-color: #ffffff;
+    border-color: #007787;
     width: 80%;
     border-width: 3px; }
   .hero__signup a.button.large {
-    background-color: #F34235; }
+    background-color: #F34235;
+    font-weight: bold; }
 
 div.easy {
   background: #f4594d; }
