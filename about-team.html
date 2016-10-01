@@ -6,10 +6,12 @@ layout: default
     <li><a href="{{site.url}}about-mission.html">Our Mission</a></li>
     <li class="active"><a href="{{site.url}}about-team.html">Our Team</a></li>
 </ul><!--/about-menu-->
-<div class="aboutUs">
-        <h1>About Us</h1>
+<div class="aboutUs ourTeam">
+ <div class="banner">
+        <h1>Our Team</h1>
+    </div><!--banner-->
+      
         <div class="aboutUs__ourTeam">
-            <h2>Our Team</h2>
             <div class="teamMember" style="margin-left: auto; margin-right: auto;">
                 <img src="https://pbs.twimg.com/profile_images/741617010963021824/O8hl-gyR.jpg" alt="">
                 <h3>Ryan Hayden</h3>
@@ -39,16 +41,4 @@ layout: default
             <p>Kyle Peront is a student from Manchester, NH.  Kyle loves photography and one day hopes to either pastor or become a software developer.  Kyle is a faithful member of Carriagetown Bible Church in Kingston, NH.</p>
         </div><!--/teamMember-->
         </div><!--aboutUs__ourTeam-->
-        <div class="aboutUs__ourTools">
-              <h2>Our Tools</h2>
-              <h3>Sites for Church builds with these tools:</h3>
-              <div class="tools">
-                  <a href="http://foundation.zurb.com/sites.html"><img src="{{ "/img/foundation.jpg" | prepend: site.baseurl }}" alt="Foundation 6" width="150px" height="150px"></a>
-                  <a href="http://sass-lang.com/"><img src="{{ "/img/sass.png" | prepend: site.baseurl }}" alt="Sass" width="150px" height="150px"></a>
-                  <a href="https://airtable.com/"><img src="{{ "/img/airtable.png" | prepend: site.baseurl }}" alt="airtable" width="150px" height="150px"></a>
-                  <a href="https://jekyllrb.com/"><img src="{{ "/img/jekyll.jpg" | prepend: site.baseurl }}" alt="jekyll" width="150px" height="150px"></a>
-              </div><!--/tools-->
-              <h4>Our process is weird <em>(and we are proud of it.)</em></h4>
-              <p>Our sites are built using static build tools so they fly and never break.  We use Airtable, an online database app for managing content.  This makes it so easy to update them (and add new content types) you'll wonder why you ever used traditional CMS products.</p>
-        </div><!--/aboutUs__ourTools-->
     </div><!--/aboutUS-->
