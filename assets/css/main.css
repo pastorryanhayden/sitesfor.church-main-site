@@ -5392,3 +5392,90 @@ ul.about-menu {
     min-height: 380px; }
     .markdown .case .text ul {
       margin-left: 50px; }
+
+.aboutUs.helpChurches {
+  padding-top: 0;
+  width: 100%;
+  max-width: 1200px;
+  background: #ffffff; }
+  .aboutUs.helpChurches .banner {
+    background: url(http://sitesforchurch.s3.amazonaws.com/help.jpg) no-repeat center center;
+    width: 100%;
+    height: 200px;
+    background-size: cover; }
+    @media screen and (min-width: 59.25em) {
+      .aboutUs.helpChurches .banner {
+        width: 100%;
+        height: 396px;
+        background-size: cover; } }
+    .aboutUs.helpChurches .banner h1 {
+      width: 100%;
+      height: 396px;
+      text-indent: -7000px;
+      margin-top: 0; }
+  .aboutUs.helpChurches .text {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 22px; }
+
+.aboutUs.helpMIT {
+  padding-top: 0;
+  width: 100%;
+  max-width: 1200px;
+  background: #ffffff; }
+  .aboutUs.helpMIT .banner {
+    background: url(http://sitesforchurch.s3.amazonaws.com/MIT.jpg) no-repeat center center;
+    width: 100%;
+    height: 200px;
+    background-size: cover; }
+    @media screen and (min-width: 59.25em) {
+      .aboutUs.helpMIT .banner {
+        width: 100%;
+        height: 396px;
+        background-size: cover; } }
+    .aboutUs.helpMIT .banner h1 {
+      width: 100%;
+      height: 396px;
+      text-indent: -7000px;
+      margin-top: 0; }
+  .aboutUs.helpMIT .text {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 22px; }
+
+.aboutUs.revolutionize {
+  padding-top: 0;
+  width: 100%;
+  max-width: 1200px;
+  background: #ffffff; }
+  .aboutUs.revolutionize .banner {
+    background: url(http://sitesforchurch.s3.amazonaws.com/revolutionize.jpg) no-repeat center center;
+    width: 100%;
+    height: 200px;
+    background-size: cover; }
+    @media screen and (min-width: 59.25em) {
+      .aboutUs.revolutionize .banner {
+        width: 100%;
+        height: 396px;
+        background-size: cover; } }
+    .aboutUs.revolutionize .banner h1 {
+      width: 100%;
+      height: 396px;
+      text-indent: -7000px;
+      margin-top: 0; }
+  .aboutUs.revolutionize .text {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 22px; }
