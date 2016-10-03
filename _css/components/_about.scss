@@ -17,7 +17,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-top: 2px dashed $secondary-color;
     margin-top: 30px;
     padding-top: 20px;
     h2 {
@@ -35,6 +34,10 @@
     text-align: center;
     @include breakpoint(small down){
         width: 100%;
+    }
+    img {
+        border-radius: 250px;
+        width: 250px;
     }
     h3 {
         color: $primary-color-dark;
