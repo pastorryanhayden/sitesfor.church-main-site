@@ -19,7 +19,7 @@ layout: default
                 </p>
                 <!--<form action="#">-->
                 <input type="email" id="email" name="email" placeholder="Email" onkeyup="check_pass();">
-                <input type="text" id="username" placeholder="Username">
+                <input type="text" id="username" placeholder="Username" onkeyup="check_pass();">
                 <input type="password" id="password" placeholder="Password" onkeyup="check_pass();" onchange="check_pass();">
                 <input type="password" id="confirm_password" placeholder="Confirm Password" onkeyup="check_pass();">
                 <button id="continue0" class="button" disabled>Choose &amp; Continue</button>
@@ -34,7 +34,7 @@ layout: default
     <div class="signup-page">
         <div class="wrapper">
             <div class="viewer">
-                <img src="http://sitesforchurch.s3.amazonaws.com/california-blue.png" alt="">
+                <img id="theme_preview_image" src="http://sitesforchurch.s3.amazonaws.com/california-blue.png" alt="">
             </div><!--/viewer-->
 
             <div class="form">
@@ -43,13 +43,13 @@ layout: default
                     <br>
                     (You can change this later.)</p>
                 <!--<form action="#">-->
-                <select id="choose_theme" class="theme">
+                <select id="choose_theme" class="theme" onchange="previewTheme();">
                     <option value="California">California Theme</option>
                     <option value="New_England">New England Theme</option>
                     <option value="Adore">Adore Theme</option>
                     <option value="Native">Native Theme</option>
                 </select>
-                <p class="theme_description">California is a modern church theme, it features promoted series,
+                <p class="theme_description" id="theme_description">California is a modern church theme, it features promoted series,
                     ministries and events on the home page. For an example visit <a
                             href="http://biblebaptistmattoon.org">biblebaptistmattoon.org</a>
                 </p>

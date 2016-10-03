@@ -7,6 +7,7 @@ var check_step5;
 var check_step6;
 var setReviewInfo;
 var sendToAirbase;
+var previewTheme;
 var formValidation;
 // CONTROL SIGNUP PROCESS
 $(document).ready(function () {
@@ -82,7 +83,30 @@ $(document).ready(function () {
     // GOT TO STEP2
 
     // STEP2
-    if ($('#choose_theme option:selected') && $('#choose_color option:selected')) {
+    previewTheme = function () {
+        switch (f_theme.val()) {
+            case 'California':
+                $("#theme_preview_image").attr("src", "http://sitesforchurch.s3.amazonaws.com/california-blue.png");
+                $('#theme_description').html('California is a modern church theme, it features promoted series, ministries and events on the home page. For an example visit <a href="http://biblebaptistmattoon.org" target="_blank">biblebaptistmattoon.org</a>');
+                break;
+            case 'New_England':
+                //RENAME THE IMAGE/LOCATION
+                $("#theme_preview_image").attr("src", "http://sitesforchurch.s3.amazonaws.com/new-england.png");
+                $('#theme_description').html('New England is a subdued and traditional theme that showcases a churches latest sermons and recent photos.  You can check out an example <a href="http://new-england.pubstorm.site" target="_blank"> here</a>');
+                break;
+            case 'Adore':
+                //RENAME THE IMAGE/LOCATION
+                $("#theme_preview_image").attr("src", "http://sitesforchurch.s3.amazonaws.com/adore.png");
+                $('#theme_description').html('Adore is a bright and clean theme with a home page slider and unique events listing.  You can check out an example <a href="http://adore-theme.pubstorm.site" target="_blank"> here</a>');
+                break;
+            case 'Native':
+                //RENAME THE IMAGE/LOCATION
+                $("#theme_preview_image").attr("src", "http://sitesforchurch.s3.amazonaws.com/native.png");
+                $('#theme_description').html('Native is an extremely versatile theme that works great with both traditional and modern styles.  You can check out an example <a href="http://native.pubstorm.site" target="blank"> here</a>');
+                break;
+        }
+    };
+    if ($('#choose_theme option:selected')) {
         $('#continue1').removeAttr("disabled");
     } else {
         $('#continue1').attr('disabled', true);
