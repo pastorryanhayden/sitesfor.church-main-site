@@ -86,12 +86,12 @@ $(document).ready(function () {
     previewTheme = function () {
         switch (f_theme.val()) {
             case 'California':
-                $("#theme_preview_image").attr("src", "http://sitesforchurch.s3.amazonaws.com/california-blue.png");
+                $("#theme_preview_image").attr("src", "http://sitesforchurch.s3.amazonaws.com/california_480.png");
                 $('#theme_description').html('California is a modern church theme, it features promoted series, ministries and events on the home page. For an example visit <a href="http://biblebaptistmattoon.org" target="_blank">biblebaptistmattoon.org</a>');
                 break;
             case 'New_England':
                 //RENAME THE IMAGE/LOCATION
-                $("#theme_preview_image").attr("src", "http://sitesforchurch.s3.amazonaws.com/new-england.png");
+                $("#theme_preview_image").attr("src", "http://sitesforchurch.s3.amazonaws.com/new-england_480.png");
                 $('#theme_description').html('New England is a subdued and traditional theme that showcases a churches latest sermons and recent photos.  You can check out an example <a href="http://new-england.pubstorm.site" target="_blank"> here</a>');
                 break;
             case 'Adore':
@@ -101,7 +101,7 @@ $(document).ready(function () {
                 break;
             case 'Native':
                 //RENAME THE IMAGE/LOCATION
-                $("#theme_preview_image").attr("src", "http://sitesforchurch.s3.amazonaws.com/native.png");
+                $("#theme_preview_image").attr("src", "http://sitesforchurch.s3.amazonaws.com/native_480.png");
                 $('#theme_description').html('Native is an extremely versatile theme that works great with both traditional and modern styles.  You can check out an example <a href="http://native.pubstorm.site" target="blank"> here</a>');
                 break;
         }

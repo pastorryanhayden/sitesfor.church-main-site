@@ -4,7 +4,6 @@
     <list default="true" id="58e60bca-ff78-45a8-9270-1aa2470d1ecf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom.js" afterPath="$PROJECT_DIR$/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/signup.html" afterPath="$PROJECT_DIR$/signup.html" />
     </list>
     <ignored path="sitesforchurch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,8 +47,8 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="85" column="32" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
+            <state relative-caret-position="504">
+              <caret line="103" column="108" selection-start-line="103" selection-start-column="108" selection-end-line="103" selection-end-column="108" />
               <folding />
             </state>
           </provider>
@@ -318,12 +317,12 @@
       <workItem from="1475398861160" duration="8215000" />
       <workItem from="1475448380947" duration="58000" />
       <workItem from="1475450409529" duration="7882000" />
-      <workItem from="1475518850085" duration="4260000" />
+      <workItem from="1475518850085" duration="4410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169254000" />
+    <option name="totallyTimeSpent" value="169404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="24" width="1873" height="1056" extended-state="6" />
@@ -720,8 +719,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="85" column="32" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
+        <state relative-caret-position="504">
+          <caret line="103" column="108" selection-start-line="103" selection-start-column="108" selection-end-line="103" selection-end-column="108" />
           <folding />
         </state>
       </provider>
