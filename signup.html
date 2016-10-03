@@ -18,11 +18,10 @@ layout: default
                 <p>First things first, we need you to pick a <strong>username</strong> and <strong>password</strong>:
                 </p>
                 <!--<form action="#">-->
-                <input type="email" id="email" placeholder="Email" required>
-                <input type="text" id="username" placeholder="Username" required>
-                <input type="password" id="password" placeholder="Password" onchange="check_pass()" required>
-                <input type="password" id="confirm_password" placeholder="Confirm Password" onkeyup="check_pass();"
-                       required>
+                <input type="email" id="email" name="email" placeholder="Email" onkeyup="check_pass();">
+                <input type="text" id="username" placeholder="Username">
+                <input type="password" id="password" placeholder="Password" onkeyup="check_pass();" onchange="check_pass();">
+                <input type="password" id="confirm_password" placeholder="Confirm Password" onkeyup="check_pass();">
                 <button id="continue0" class="button" disabled>Choose &amp; Continue</button>
             </div>
         </div>

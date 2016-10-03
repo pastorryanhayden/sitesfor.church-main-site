@@ -7,6 +7,7 @@ var check_step5;
 var check_step6;
 var setReviewInfo;
 var sendToAirbase;
+var formValidation;
 // CONTROL SIGNUP PROCESS
 $(document).ready(function () {
 
@@ -29,17 +30,45 @@ $(document).ready(function () {
     var f_web_lead_email = $('#web_lead_email');
     var f_best_time_call = $('#best_time_to_call');
 
+    // DOES ALL VALIDATION FOR THE SIGN UP PROCESS
+    formValidation = function (field, type) {
+        var element = $('#' + field);
+        var emailPattern = /^[-a-z0-9~!$%^&*_=+}{\'?]+(\.[-a-z0-9~!$%^&*_=+}{\'?]+)*@([a-z0-9_][-a-z0-9_]*(\.[-a-z0-9_]+)*\.(aero|arpa|biz|com|coop|edu|gov|info|int|mil|museum|name|net|org|pro|travel|mobi|[a-z][a-z])|([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}))(:[0-9]{1,5})?$/i;
+        var usernamePattern = /^([a-z0-9]){3,15}$/;
+        switch (type) {
+            case 'email':
+                if (!emailPattern.test(element.val()) || element.val() == '') {
+                    continue0.attr("disabled", true);
+                    element.addClass('has-error');
+                    return false;
+                } else {
+                    continue0.removeAttr("disabled");
+                    element.removeClass('has-error');
+                    return true;
+                }
+                break;
+            case 'username':
+                if (!usernamePattern.test(element.val()) || element.val() == '') {
+                    continue0.attr("disabled", true);
+                    element.addClass('has-error');
+                    return false;
+                } else {
+                    continue0.removeAttr("disabled");
+                    element.removeClass('has-error');
+                    return true;
+                }
+                break;
+        }
+    };
 
     // CONFIRM PASSWORD VALIDATION {STEP 1}
     var continue0 = $('#continue0');
     check_pass = function () {
         if ($('#password').val() == $('#confirm_password').val()) {
             if ($('#email').val() != '' && $('#username').val() != '' && $('#password').val() != '' && $('#confirm_password').val() != '') {
-                document.getElementById('confirm_password').setCustomValidity('');
                 continue0.removeAttr("disabled");
             }
         } else {
-            document.getElementById('confirm_password').setCustomValidity('Please ensure both passwords match');
             continue0.attr("disabled", true);
         }
     };
@@ -204,9 +233,11 @@ $(document).ready(function () {
 
         $.ajax({
             type: 'POST',
+            headers: {'Access-Control-Allow-Origin': '*'},
             data: JSON.stringify(data),
             contentType: 'application/json',
             url: 'https://siteforchurch-backend-nodejs.herokuapp.com/air',
+            crossDomain: true,
             success: function (data) {
                 console.log('success');
                 console.log(JSON.stringify(data));
