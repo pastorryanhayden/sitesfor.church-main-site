@@ -5028,6 +5028,9 @@ progress::-webkit-progress-value {
   color: #333333;
   font-style: italic; }
 
+.has-error {
+  border: 2px solid #ec5840 !important; }
+
 .srdocs {
   display: flex;
   max-width: 1200px; }
