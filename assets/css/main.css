@@ -4270,6 +4270,8 @@ div.easy {
     display: block;
     font-weight: normal;
     font-size: 24px; }
+  .easy__content__text a {
+    color: #ffffff; }
 
 .features {
   background: #ffffff;
@@ -4343,7 +4345,7 @@ div.featuresGridRow {
   color: #ffffff; }
 
 .pricing .row {
-  background: url(http://sitesforchurch.s3.amazonaws.com/money-guy.png) no-repeat bottom right;
+  background: url(http://sitesforchurch.s3.amazonaws.com/money.png) no-repeat bottom right;
   height: 560px; }
   @media screen and (max-width: 39.9375em) {
     .pricing .row {
