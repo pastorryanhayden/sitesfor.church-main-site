@@ -5511,3 +5511,204 @@ ul.about-menu {
       height: 396px;
       text-indent: -7000px;
       margin-top: 0; }
+
+.congrats {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  .congrats h1 {
+    text-indent: -7000px;
+    width: 100%;
+    background: url(http://sitesforchurch.s3.amazonaws.com/Congrats.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 160px; }
+    @media screen and (min-width: 40em) {
+      .congrats h1 {
+        min-height: 300px; } }
+    @media screen and (min-width: 64em) {
+      .congrats h1 {
+        min-height: 432px; } }
+    .congrats h1 strong {
+      text-indent: -7000px;
+      display: block; }
+
+.welcomeVideo {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .welcomeVideo .video-wrapper {
+    width: 560px;
+    margin-left: auto;
+    margin-right: auto; }
+
+.expect {
+  background: #C52325;
+  color: #fffff;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px; }
+  @media screen and (min-width: 40em) {
+    .expect {
+      flex-direction: row; } }
+  .expect img {
+    width: 301px;
+    height: 308px;
+    order: 2;
+    align-self: center; }
+    @media screen and (min-width: 40em) {
+      .expect img {
+        order: 1; } }
+  .expect h2 {
+    color: #ffffff;
+    align-self: center;
+    font-weight: 200;
+    font-size: 64px;
+    text-align: center; }
+    @media screen and (min-width: 40em) {
+      .expect h2 {
+        order: 2; } }
+
+.email {
+  background: #3748AC;
+  color: #fffff;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px; }
+  @media screen and (min-width: 40em) {
+    .email {
+      flex-direction: row; } }
+  .email img {
+    width: 331px;
+    height: 220px;
+    align-self: center; }
+  .email .text {
+    align-self: center;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 30px; }
+    .email .text p {
+      max-width: 600px; }
+    .email .text h2 {
+      color: #ffffff;
+      font-weight: 200;
+      font-size: 50px;
+      text-align: left; }
+
+.airtable-email {
+  color: #202020;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px; }
+  @media screen and (min-width: 40em) {
+    .airtable-email {
+      flex-direction: row; } }
+  .airtable-email img {
+    width: 402px;
+    height: 212px;
+    align-self: center;
+    order: 2; }
+    @media screen and (min-width: 40em) {
+      .airtable-email img {
+        order: 1; } }
+  .airtable-email .text {
+    align-self: center;
+    margin-bottom: 30px; }
+    @media screen and (min-width: 40em) {
+      .airtable-email .text {
+        order: 2; } }
+    .airtable-email .text p {
+      max-width: 600px;
+      text-align: right; }
+    .airtable-email .text h2 {
+      color: #202020;
+      font-weight: 200;
+      font-size: 50px;
+      text-align: right; }
+
+.site-rep {
+  background: #008B7D;
+  color: #fffff;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px; }
+  @media screen and (min-width: 40em) {
+    .site-rep {
+      flex-direction: row; } }
+  .site-rep img {
+    width: 185px;
+    height: 248px;
+    align-self: center; }
+  .site-rep .text {
+    align-self: center;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 30px; }
+    .site-rep .text p {
+      max-width: 600px; }
+    .site-rep .text h2 {
+      color: #ffffff;
+      font-weight: 200;
+      font-size: 50px;
+      text-align: left; }
+
+.dont-worry {
+  background: #557280;
+  color: #fffff;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px; }
+  @media screen and (min-width: 40em) {
+    .dont-worry {
+      flex-direction: row; } }
+  .dont-worry img {
+    width: 467px;
+    height: 462px;
+    align-self: center; }
+  .dont-worry .text {
+    color: #ffffff;
+    align-self: center;
+    text-align: center; }
+    .dont-worry .text h2 {
+      color: #ffffff;
+      align-self: center;
+      font-weight: 200;
+      font-size: 50px;
+      text-align: center;
+      margin-bottom: 30px; }
+    .dont-worry .text a.button {
+      background: #222C31;
+      font-weight: bold;
+      font-size: 25px;
+      text-align: center;
+      margin-bottom: 30px; }
