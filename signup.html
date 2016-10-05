@@ -20,7 +20,8 @@ layout: default
                 <!--<form action="#">-->
                 <input type="email" id="email" name="email" placeholder="Email" onkeyup="check_pass();">
                 <input type="text" id="username" placeholder="Username" onkeyup="check_pass();">
-                <input type="password" id="password" placeholder="Password" onkeyup="check_pass();" onchange="check_pass();">
+                <input type="password" id="password" placeholder="Password" onkeyup="check_pass();"
+                       onchange="check_pass();">
                 <input type="password" id="confirm_password" placeholder="Confirm Password" onkeyup="check_pass();">
                 <button id="continue0" class="button" disabled>Choose &amp; Continue</button>
             </div>
@@ -48,7 +49,8 @@ layout: default
                     <option value="Adore">Adore Theme</option>
                     <option value="Native">Native Theme</option>
                 </select>
-                <p class="theme_description" id="theme_description">California is a modern church theme, it features promoted series,
+                <p class="theme_description" id="theme_description">California is a modern church theme, it features
+                    promoted series,
                     ministries and events on the home page. For an example visit <a
                             href="http://biblebaptistmattoon.org">biblebaptistmattoon.org</a>
                 </p>
@@ -173,77 +175,80 @@ layout: default
 
 <!--STEP 7-->
 <div id="step7">
-    <div class="signup-page step-4 step-3 step-2 review-page">
+    <div class="signup-page">
         <div class="wrapper">
+            <div class="full-width">
+                <h2 class="review-content-center header-review-color" id="church_name_preview"></h2>
+                <hr class="full-width">
+                <p>Please look over the details you've provided and confirm them before moving on to the payment
+                    section.</p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="viewer">
+                <img src="http://sitesforchurch.s3.amazonaws.com/california-blue.png" id="theme_preview_image_review"
+                     alt="">
+            </div>
             <div class="form">
-                <h2>Review Your Details</h2>
-                <p>Please look over the details you've provided and confirm them before moving on to payment.</p>
+                <h3 class="header-review-color">Theme</h3>
+                <hr class="full-width">
+                <p><strong>Name: </strong><span id="review_theme_name">California Theme</span></p>
+                <p><strong>Description: </strong><span id="review_theme_description">California is a modern church theme, it features promoted series,
+                ministries and events on the home page. For an example visit <a
+                            href="#">biblebaptistmattoon.org</a></span></p>
+            </div>
+        </div>
 
-                <div class="viewer">
-                    <img src="http://sitesforchurch.s3.amazonaws.com/california-blue.png" id="theme_preview_image_review" alt="">
-                </div><!--/viewer-->
-                <!--<div class="form">-->
-                <h2>Theme</h2>
-                <!--<form action="#">-->
-                <select class="theme" id="theme_preview">
-                    <option value="California">California Theme</option>
-                    <option value="New_England">New England Theme</option>
-                    <option value="Adore">Adore Theme</option>
-                    <option value="Native">Native Theme</option>
-                </select>
-                <p class="theme_description">California is a modern church theme, it features promoted series,
-                    ministries and events on the home page. For an example visit <a
-                            href="#">biblebaptistmattoon.org</a></p>
-                <!--</form>-->
-                <hr>
+        <div class="wrapper">
+            <div class="full-width">
+                <h3 class="review-content-center header-review-color">Contact Details</h3>
+                <hr class="full-width">
 
-                <h2>Church Details</h2>
-                <h3>The Basics</h3>
-                <form action="#">
-                    <input type="text" placeholder="The name of your church" id="church_name_preview">
-                    <input type="text" placeholder="Your city" id="church_location_preview">
-                    <input type="text" placeholder="The url you want to use" id="Domain_preview">
-                    <fieldset class="url-box">
-                        <label for="Domain_owned_preview">
-                            Do you own it already?
-                            <input type="checkbox" id="Domain_owned_preview">
-                        </label>
-                    </fieldset>
-                </form>
-                <hr>
+                <div class="left-half">
+                    <p><strong>Location: </strong><span id="church_location_preview">Sample Location</span></p>
+                    <p><strong>Physical Address:</strong><span id="ChurchAddress_preview">Sample Address</span></p>
+                    <p><strong>Domain Name: </strong><span id="Domain_preview">www.sample.example</span></p>
+                    <p><strong>Domain Purchased: </strong><span id="domain_is_purchased">Yes</span></p>
+                </div>
 
-                <h3>Service Schedule</h3>
+                <div class="right-half">
+                    <p><strong>Pastor: </strong><span id="PastorName_preview">Sample Pastor Name</span></p>
+                    <p><strong>Phone Number: </strong><span id="ChurchPhone_preview">Sample Phone Number</span></p>
+                    <p><strong>Email Address: </strong><span id="ChurchEmail_preview">Sample Email Address</span></p>
+                </div>
+            </div>
+            <br>
+        </div>
+
+        <div class="wrapper">
+            <div class="full-width">
+                <h3 class="header-review-color">Web Master Details</h3>
+                <hr class="full-width">
+
+                <p><strong>Name: </strong><span id="WebLeadName_preview">Sample Lead Name</span></p>
+                <p><strong>Phone Number: </strong><span id="WebLeadPhone_preview">Sample Lead Phone</span></p>
+                <p><strong>Email Address: </strong><span id="WebLeadEmail_preview">Sample Email Address</span></p>
+                <p><strong>Best Time to Call: </strong><span id="BestTimeToCall_preview">Sample Best Time to Call</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="full-width">
+                <h3 class="header-review-color">Service Schedule</h3>
+                <hr class="full-width">
                 <p>For each service in your service schedule, we've shown them below as they will appear in your
                     website</p>
                 <div class="service-schedules" id="service-schedule-container"></div>
-                <hr>
+            </div>
+        </div>
 
-                <h3>Pastor &amp; Contact Info</h3>
-                <p>This is some of the most important information on your site so we want to set it up right
-                    away.</p>
-                <form action="#">
-                    <input type="text" placeholder="Lead Pastor's Name" id="PastorName_preview">
-                    <input type="text" placeholder="Church physical address" id="ChurchAddress_preview">
-                    <input type="text" placeholder="Church phone number" id="ChurchPhone_preview">
-                    <input type="text" placeholder="Church email address" id="ChurchEmail_preview">
-                </form>
-                <hr>
-
-                <h3>Webmaster</h3>
-                <p>Who will be the primary person at the church who is managing the site?</p>
-                <form action="#">
-                    <input type="text" placeholder="Webmaster's Name?" id="WebLeadName_preview">
-                    <input type="text" placeholder="Phone" id="WebLeadPhone_preview">
-                    <input type="text" placeholder="Email" id="WebLeadEmail_preview">
-                    <input type="text" placeholder="Best time to call" id="BestTimeToCall_preview">
-                </form>
-                <hr>
-
+        <div class="wrapper">
+            <div class="full-width">
                 <button class="button" id="continue6">Confirm &amp; Proceed to
                     Payment
                 </button>
                 <progress max="100" value="100"></progress>
-                <!--</div>-->
             </div>
         </div>
     </div>
@@ -322,7 +327,3 @@ layout: default
     </div><!--/payment-page-->
 </div>
 <!--STEP 8-->
-
-</div>
-</div><!--/wrapper-->
-</div><!--/signup-page-->

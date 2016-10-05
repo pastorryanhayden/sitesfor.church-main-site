@@ -9,6 +9,7 @@ var setReviewInfo;
 var sendToAirbase;
 var previewTheme;
 var formValidation;
+
 // CONTROL SIGNUP PROCESS
 $(document).ready(function () {
 
@@ -86,27 +87,23 @@ $(document).ready(function () {
     previewTheme = function () {
         switch (f_theme.val()) {
             case 'California':
-                $("#theme_preview_image").attr("src", "http://sitesforchurch.s3.amazonaws.com/california_480.png");
-                $("#theme_preview_image_review").attr("src", "http://sitesforchurch.s3.amazonaws.com/california_480.png");
-                $('#theme_description').html('California is a modern church theme, it features promoted series, ministries and events on the home page. For an example visit <a href="http://biblebaptistmattoon.org" target="_blank">biblebaptistmattoon.org</a>');
+                $("#theme_preview_image, #theme_preview_image_review").attr("src", "http://sitesforchurch.s3.amazonaws.com/california_480.png");
+                $('#theme_description, #review_theme_description').html('California is a modern church theme, it features promoted series, ministries and events on the home page. For an example visit <a href="http://biblebaptistmattoon.org" target="_blank">biblebaptistmattoon.org</a>');
                 break;
             case 'New_England':
                 //RENAME THE IMAGE/LOCATION
-                $("#theme_preview_image").attr("src", "http://sitesforchurch.s3.amazonaws.com/new-england_480.png");
-                $("#theme_preview_image_review").attr("src", "http://sitesforchurch.s3.amazonaws.com/new-england_480.png");
-                $('#theme_description').html('New England is a subdued and traditional theme that showcases a churches latest sermons and recent photos.  You can check out an example <a href="http://new-england.pubstorm.site" target="_blank"> here</a>');
+                $("#theme_preview_image, #theme_preview_image_review").attr("src", "http://sitesforchurch.s3.amazonaws.com/new-england_480.png");
+                $('#theme_description, #review_theme_description').html('New England is a subdued and traditional theme that showcases a churches latest sermons and recent photos.  You can check out an example <a href="http://new-england.pubstorm.site" target="_blank"> here</a>');
                 break;
             case 'Adore':
                 //RENAME THE IMAGE/LOCATION
-                $("#theme_preview_image").attr("src", "http://sitesforchurch.s3.amazonaws.com/adore.png");
-                $("#theme_preview_image_review").attr("src", "http://sitesforchurch.s3.amazonaws.com/adore.png");
-                $('#theme_description').html('Adore is a bright and clean theme with a home page slider and unique events listing.  You can check out an example <a href="http://adore-theme.pubstorm.site" target="_blank"> here</a>');
+                $("#theme_preview_image, #theme_preview_image_review").attr("src", "http://sitesforchurch.s3.amazonaws.com/adore.png");
+                $('#theme_description, #review_theme_description').html('Adore is a bright and clean theme with a home page slider and unique events listing.  You can check out an example <a href="http://adore-theme.pubstorm.site" target="_blank"> here</a>');
                 break;
             case 'Native':
                 //RENAME THE IMAGE/LOCATION
-                $("#theme_preview_image").attr("src", "http://sitesforchurch.s3.amazonaws.com/native_480.png");
-                $("#theme_preview_image_review").attr("src", "http://sitesforchurch.s3.amazonaws.com/native_480.png");
-                $('#theme_description').html('Native is an extremely versatile theme that works great with both traditional and modern styles.  You can check out an example <a href="http://native.pubstorm.site" target="blank"> here</a>');
+                $("#theme_preview_image, #theme_preview_image_review").attr("src", "http://sitesforchurch.s3.amazonaws.com/native_480.png");
+                $('#theme_description, #review_theme_description').html('Native is an extremely versatile theme that works great with both traditional and modern styles.  You can check out an example <a href="http://native.pubstorm.site" target="_blank"> here</a>');
                 break;
         }
     };
@@ -144,7 +141,6 @@ $(document).ready(function () {
     // STEP4
     var placeholder = 'Enter your schedule here...';
     $('#service_schedule_txtarea').val(placeholder);
-
     $('#service_schedule_txtarea').focus(function () {
         if ($(this).val() === placeholder) {
             $(this).val('');
@@ -192,16 +188,22 @@ $(document).ready(function () {
     };
     // STEP6
 
+    // GO TO STEP7
+    $('#continue5').click(function () {
+        setReviewInfo();
+        sendToAirbase();
+        $('#step6').fadeOut();
+        $('#step7').fadeIn(600);
+    });
+
     // SET REVIEW INFORMATION VALUES
     setReviewInfo = function () {
-        $('#theme_preview').val(f_theme.val());
+        $('#review_theme_name').text(f_theme.val());
 
-        $('#church_name_preview').val(f_church_name.val());
-        $('#church_location_preview').val(f_church_address.val());
-        $('#Domain_preview').val(f_church_domain.val());
-        if ($('#checkbox_domain').is(':checked')) {
-            $('#Domain_owned_preview').prop('checked', true);
-        }
+        $('#church_name_preview').text(f_church_name.val());
+        $('#church_location_preview').text(f_church_city.val());
+        $('#Domain_preview').text(f_church_domain.val());
+        $('#checkbox_domain').is(':checked') ? $('#domain_is_purchased').text('Yes') : $('#domain_is_purchased').text('No');
 
         // CAST SERVICE SCHEDULE INTO AN ARRAY
         var service_array = f_service_schedule.val().split('\n');
@@ -212,24 +214,16 @@ $(document).ready(function () {
         });
         // LOOP THROUGH THE ARRAY AND DISPLAY THE VALUES FOR REVIEW
 
-        $('#PastorName_preview').val(f_pastor_name.val());
-        $('#ChurchAddress_preview').val(f_church_address.val());
-        $('#ChurchPhone_preview').val(f_church_phone.val());
-        $('#ChurchEmail_preview').val(f_church_email.val());
+        $('#PastorName_preview').text(f_pastor_name.val());
+        $('#ChurchAddress_preview').text(f_church_address.val());
+        $('#ChurchPhone_preview').text(f_church_phone.val());
+        $('#ChurchEmail_preview').text(f_church_email.val());
 
-        $('#WebLeadName_preview').val(f_web_lead_name.val());
-        $('#WebLeadPhone_preview').val(f_web_lead_phone.val());
-        $('#WebLeadEmail_preview').val(f_web_lead_email.val());
-        $('#BestTimeToCall_preview').val(f_best_time_call.val());
+        $('#WebLeadName_preview').text(f_web_lead_name.val());
+        $('#WebLeadPhone_preview').text(f_web_lead_phone.val());
+        $('#WebLeadEmail_preview').text(f_web_lead_email.val());
+        $('#BestTimeToCall_preview').text(f_best_time_call.val());
     };
-
-    // GO TO STEP7
-    $('#continue5').click(function () {
-        setReviewInfo();
-        sendToAirbase();
-        $('#step6').fadeOut();
-        $('#step7').fadeIn(600);
-    });
     // GO TO STEP7
 
     // GOT TO STEP8
