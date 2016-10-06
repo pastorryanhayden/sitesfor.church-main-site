@@ -21,7 +21,7 @@ div.hero div.row {
 
 .hero__header h1 {
     color: $primary-color;
-    font-size: 80px; 
+    font-size: 60px; 
     font-weight: bold;
     margin-bottom: 0;
     line-height: 80px;
@@ -29,6 +29,7 @@ div.hero div.row {
 span {
     color: $secondary-color;
     text-transform: uppercase;
+    font-size: 55px;  
 }
 }
 .hero__header h3 {
@@ -45,9 +46,9 @@ span {
 }
 .hero__video  {
     display: block;
-    background: url(http://sitesforchurch.s3.amazonaws.com/computervideo.png) no-repeat bottom center;
-    width: 483px;
-    height: 406px;
+    background: url(http://sitesforchurch.s3.amazonaws.com/Computer_man.png) no-repeat bottom center;
+    width: 339px;
+    height: 400px;
     line-height: 406px;
     margin-left: auto;
     margin-right: auto; 
@@ -82,9 +83,8 @@ span {
 
     hr {
         color: $white;
-        border-color: darken($secondary-color, 15%);
-        width: 80%;
-        border-width: 3px;
+        border: 2px solid darken($secondary-color, 15%);
+        width: 70%;
     }
     a.button.large {
         background-color: $primary-color;

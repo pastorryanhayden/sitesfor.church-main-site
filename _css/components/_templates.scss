@@ -1,13 +1,19 @@
 div.templates {
     background: #F5F5F5;
     padding-bottom: 50px;
+    padding-top: 50px;
 
 h2 { 
     font-size: 50px;
     font-weight: bold;
     color: $primary-color;
     text-align: center;
-    margin-top: 30px;
+}
+
+h2 + p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 h3 {
@@ -50,10 +56,14 @@ h3 {
         border-bottom: 1px solid $black;
         margin-bottom: 20px;
     }
+
+    a.button {
+        background: $secondary-color;
+    }
 }
 
 .theme-explanation {
-    background: $secondary-color;
+    background: darken($secondary-color, 10%);
     width: 90%;
     max-width: 700px;
     margin-left: auto;
