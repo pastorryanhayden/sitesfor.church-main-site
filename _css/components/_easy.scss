@@ -67,7 +67,11 @@ div.easy {
         color: darken($white, 10%);
     }
     ul {
+        text-align: left;
+        padding-left: 40px;
+        @include breakpoint(medium){
         padding-left: 100px;
+        }
     }
     ul li {
         color: darken($white, 10%);

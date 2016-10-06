@@ -4176,7 +4176,6 @@ div.hero div.row {
   line-height: 80px; }
   .hero__header h1 span {
     color: #00BBD3;
-    text-transform: uppercase;
     font-size: 55px; }
 
 .hero__header h3 {
@@ -4221,8 +4220,8 @@ div.hero div.row {
       padding-bottom: 30px; } }
   .hero__signup hr {
     color: #ffffff;
-    border: 2px solid #007787;
-    width: 70%; }
+    border: 1px solid #007787;
+    width: 30%; }
   .hero__signup a.button.large {
     background-color: #F34235;
     font-weight: bold; }
@@ -4279,7 +4278,11 @@ div.easy {
   .easy__content__text p {
     color: #e6e6e6; }
   .easy__content__text ul {
-    padding-left: 100px; }
+    text-align: left;
+    padding-left: 40px; }
+    @media screen and (min-width: 40em) {
+      .easy__content__text ul {
+        padding-left: 100px; } }
   .easy__content__text ul li {
     color: #e6e6e6; }
 
