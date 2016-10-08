@@ -5,7 +5,7 @@ layout: default
 {% for post in site.data.blog %}
 <div class="blogPost__header">
         <h1><a href="{{ post.title | datapage_url: 'blog' }}">{{post.title}}</a></h1>
-        <p>Written by: {% if page.author %} {{ page.author }} {% else %} Sitesfor.church staff {% endif %}  {%if post.date%} on {{ post.date | date: "%b %-d, %Y" }} {% endif %}</p>
+        <p>Written by: {% if post.author %} {{ post.author }} {% else %} Sitesfor.church staff {% endif %}  {%if post.date%} on {{ post.date | date: "%b %-d, %Y" }} {% endif %}</p>
         {% if post.featured_image %}
         {% for img in post.featured_image%}
         <img src="{{img.url}}" alt="{{post.title}}" style="max-width: 100%;">

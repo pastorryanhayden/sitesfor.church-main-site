@@ -28,7 +28,7 @@ h3 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    max-width: 900px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -38,27 +38,36 @@ h3 {
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
     text-align: center;
     margin-bottom: 20px;
-    width: 400px;
+    width: 500px;
     @include breakpoint(medium){
         margin-bottom: 50px;  
     }
+    img {
+        width: 100%;
+    }
     h4 {
         padding-top: 15px;
-        padding-bottom: 15px;
-        border-bottom: 1px solid $black;
+        // padding-bottom: 15px;
+        // border-bottom: 1px solid $black;
         text-transform: uppercase;
         font-weight: bold;
-        color: $primary-color; 
+        color: darken($secondary-color, 10%);
+        margin-bottom: 0; 
     }
     .explanation {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        border-bottom: 1px solid $black;
-        margin-bottom: 20px;
+        padding: 20px 20px 0 20px;
+        // border-bottom: 1px solid $black;
+        // margin-bottom: 20px;
+        color: $medium-gray;
+        font-style: italic;
+        min-height: 100px;
     }
 
     a.button {
-        background: $secondary-color;
+        background: darken($secondary-color, 10%);
+        font-weight: bold;
+        font-size: 18px; 
+
     }
 }
 
@@ -68,7 +77,6 @@ h3 {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
     padding: 20px;
 
     h3 {
@@ -79,12 +87,13 @@ h3 {
         margin-top: 0;
         border-bottom: 2px dashed $white;
         margin-bottom: 20px;
+        text-align: center;
 
     }
     ul {
         list-style-type: none;
         padding-left: none;
-        margin-left: none;
+        margin-left: 50px;
         color: darken($white, 5%);
         font-size: 20px;
     }
@@ -92,17 +101,28 @@ h3 {
     li {
         padding-top: 10px;
         padding-bottom: 10px;
-        border-bottom: 1px dashed darken($white, 10%); 
+        // border-bottom: 1px dashed darken($white, 10%); 
     
     strong {
         font-size: 22px;
         color: $white;
         text-transform: uppercase;
     }
+    span {
+        display: block;
+        margin-left: 30px;
+    }
     &:last-child {
         border-bottom: none;
         padding-bottom: 0;
     }
+    }
+    p.explanation-text {
+        text-align: center;
+        padding-top: 20px;
+        border-top: 1px dashed darken($white, 10%);
+        color: darken($white, 10%);
+        font-size: 20px;
     }
 }
 

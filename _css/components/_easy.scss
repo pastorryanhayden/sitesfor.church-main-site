@@ -53,9 +53,7 @@ div.easy {
     }
 
     h3 span {
-        display: block;
-        font-weight: normal;
-        font-size: 24px;
+        text-decoration: underline;
     }
     a {
         color: lighten($secondary-color, 15%);
