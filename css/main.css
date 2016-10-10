@@ -4170,13 +4170,13 @@ div.hero div.row {
 
 .hero__header h1 {
   color: #F34235;
-  font-size: 80px;
+  font-size: 60px;
   font-weight: bold;
   margin-bottom: 0;
   line-height: 80px; }
   .hero__header h1 span {
     color: #00BBD3;
-    text-transform: uppercase; }
+    font-size: 55px; }
 
 .hero__header h3 {
   font-weight: normal;
@@ -4189,9 +4189,9 @@ div.hero div.row {
 
 .hero__video {
   display: block;
-  background: url(http://sitesforchurch.s3.amazonaws.com/computervideo.png) no-repeat bottom center;
-  width: 483px;
-  height: 406px;
+  background: url(http://sitesforchurch.s3.amazonaws.com/Computer_man.png) no-repeat bottom center;
+  width: 339px;
+  height: 400px;
   line-height: 406px;
   margin-left: auto;
   margin-right: auto;
@@ -4220,15 +4220,15 @@ div.hero div.row {
       padding-bottom: 30px; } }
   .hero__signup hr {
     color: #ffffff;
-    border-color: #007787;
-    width: 80%;
-    border-width: 3px; }
+    border: 1px solid #007787;
+    width: 30%; }
   .hero__signup a.button.large {
     background-color: #F34235;
     font-weight: bold; }
 
 div.easy {
-  background: #f4594d; }
+  background: #D22E2E;
+  padding: 20px; }
 
 .easy__header {
   text-align: center;
@@ -4246,7 +4246,8 @@ div.easy {
     font-style: italic;
     margin-bottom: 0; }
   .easy__header p {
-    font-size: 20px; }
+    font-size: 20px;
+    color: #e6e6e6; }
     .easy__header p em {
       font-weight: bold; }
 
@@ -4271,11 +4272,24 @@ div.easy {
     font-weight: normal;
     font-size: 24px; }
   .easy__content__text a {
-    color: #ffffff; }
+    color: #21e6ff;
+    font-weight: bold;
+    text-decoration: underline; }
+  .easy__content__text p {
+    color: #e6e6e6; }
+  .easy__content__text ul {
+    text-align: left;
+    padding-left: 40px; }
+    @media screen and (min-width: 40em) {
+      .easy__content__text ul {
+        padding-left: 100px; } }
+  .easy__content__text ul li {
+    color: #e6e6e6; }
 
 .features {
   background: #ffffff;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  padding-top: 20px; }
 
 .features .headerRow {
   display: flex;
@@ -4342,7 +4356,8 @@ div.featuresGridRow {
 
 .pricing {
   background-color: #F34235;
-  color: #ffffff; }
+  color: #ffffff;
+  padding: 20px; }
 
 .pricing .row {
   background: url(http://sitesforchurch.s3.amazonaws.com/money.png) no-repeat bottom right;
@@ -5057,6 +5072,12 @@ progress::-webkit-progress-value {
 .italic {
   font-style: italic; }
 
+.validation-hint {
+  font-size: 12px !important;
+  margin-top: -15px !important;
+  color: #F34235 !important;
+  text-align: left !important; }
+
 .srdocs {
   display: flex;
   max-width: 1200px; }
@@ -5067,13 +5088,17 @@ progress::-webkit-progress-value {
 
 div.templates {
   background: #F5F5F5;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  padding-top: 50px; }
   div.templates h2 {
     font-size: 50px;
     font-weight: bold;
     color: #F34235;
+    text-align: center; }
+  div.templates h2 + p {
+    font-size: 20px;
     text-align: center;
-    margin-top: 30px; }
+    margin-bottom: 50px; }
   div.templates h3 {
     font-size: 35px;
     font-style: italic;
@@ -5108,8 +5133,10 @@ div.templates {
       padding-bottom: 20px;
       border-bottom: 1px solid #202020;
       margin-bottom: 20px; }
+    div.templates .single-template a.button {
+      background: #00BBD3; }
   div.templates .theme-explanation {
-    background: #00BBD3;
+    background: #008ea0;
     width: 90%;
     max-width: 700px;
     margin-left: auto;

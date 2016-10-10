@@ -17,12 +17,19 @@ layout: default
                 <h2 class="text-center">Welcome!</h2>
                 <p>First things first, we need you to pick a <strong>username</strong> and <strong>password</strong>:
                 </p>
-                <!--<form action="#">-->
-                <input type="email" id="email" name="email" placeholder="Email" onkeyup="check_pass();">
-                <input type="text" id="username" placeholder="Username" onkeyup="check_pass();">
-                <input type="password" id="password" placeholder="Password" onkeyup="check_pass();"
-                       onchange="check_pass();">
-                <input type="password" id="confirm_password" placeholder="Confirm Password" onkeyup="check_pass();">
+                <input type="email" id="email" name="email" placeholder="Email" onkeyup="formValidation('email');">
+                <p class="validation-hint" id="email-hint"></p>
+
+                <input type="text" id="username" placeholder="Username" onkeyup="formValidation('username');">
+                <p class="validation-hint" id="username-hint"></p>
+
+                <input type="password" id="password" placeholder="Password" onkeyup="formValidation('password');"
+                       onchange="formValidation('password');">
+                <p class="validation-hint" id="password-hint"></p>
+
+                <input type="password" id="confirm_password" placeholder="Confirm Password" onkeyup="formValidation('confirm_password');">
+                <p class="validation-hint" id="password-confirm-hint"></p>
+
                 <button id="continue0" class="button" disabled>Choose &amp; Continue</button>
             </div>
         </div>
@@ -69,7 +76,7 @@ layout: default
 
 <!--STEP 3-->
 <div id="step3">
-    <div class="signup-page step-2">
+    <div class="signup-page welcome step-2">
         <div class="wrapper">
             <div class="form">
                 <h2>Church Details</h2>
@@ -77,10 +84,16 @@ layout: default
                 <h3>The Basics</h3>
                 <!--<form action="#">-->
                 <input type="text" id="name_of_church" placeholder="What's the name of your church"
-                       onkeyup="check_step3();" required>
-                <input type="text" id="name_of_city" placeholder="Your city" onkeyup="check_step3();" required>
+                       onkeyup="formValidation('name_of_church');">
+                <p class="validation-hint" id="church-name-hint"></p>
+
+                <input type="text" id="name_of_city" placeholder="Your city" onkeyup="formValidation('name_of_city');">
+                <p class="validation-hint" id="church-location-hint"></p>
+
                 <input type="text" id="name_of_domain" placeholder="What domain do you want to use for you church?"
-                       onkeyup="check_step3();" required>
+                       onkeyup="formValidation('name_of_domain');">
+                <p class="validation-hint" id="church-domain-hint"></p>
+
                 <fieldset class="url-box">
                     <label for="checkbox_domain">
                         Do you already own this domain?
@@ -123,26 +136,27 @@ layout: default
 
 <!--STEP 5-->
 <div id="step5">
-    <div class="signup-page step-4">
+    <div class="signup-page welcome step-4">
         <div class="wrapper">
             <div class="form">
-                <h2>Church Details</h2>
-                <p>Please provide some information about your church so that we can start to build your site.</p>
-
                 <h3>Pastor &amp; Contact Info</h3>
                 <p>This is some of the most important information on your site so we want to set it up right
                     away.</p>
 
                 <!--<form action="#">-->
-                <input type="text" placeholder="What is your lead pastor's name?" id="pastor_name" onkeyup="check_step5();"
-                       required>
+                <input type="text" placeholder="What is your lead pastor's name?" id="pastor_name" onkeyup="formValidation('pastor_name');">
+                <p class="validation-hint" id="pastor-hint"></p>
+
                 <input type="text" placeholder="What is your church's physical address?" id="church_address"
-                       onkeyup="check_step5();" required>
-                <input type="text" placeholder="What is your church's phone number?" id="church_phone" onkeyup="check_step5();"
-                       required>
-                <input type="text" placeholder="What is your church email address?" id="church_email" onkeyup="check_step5();"
-                       required>
-                <!--</form>-->
+                       onkeyup="formValidation('church_address');">
+                <p class="validation-hint" id="church-address-hint"></p>
+
+                <input type="text" placeholder="What is your church's phone number?" id="church_phone" onkeyup="formValidation('church_phone');">
+                <p class="validation-hint" id="church-phone-hint"></p>
+
+                <input type="text" placeholder="What is your church email address?" id="church_email" onkeyup="formValidation('church_email');">
+                <p class="validation-hint" id="church-email-hint"></p>
+
                 <button class="button" id="continue4" disabled>Choose &amp; Continue</button>
                 <progress max="100" value="60"></progress>
             </div>
@@ -153,15 +167,22 @@ layout: default
 
 <!--STEP 6-->
 <div id="step6">
-    <div class="signup-page step-4">
+    <div class="signup-page welcome step-4">
         <div class="wrapper">
             <div class="form">
                 <h3>Webmaster</h3>
                 <p>Who will be the primary person at the church who is managing the site?</p>
-                <input type="text" placeholder="Webmaster's Name?" id="web_lead_name" onkeyup="check_step6();">
-                <input type="text" placeholder="Phone" id="web_lead_phone" onkeyup="check_step6();">
-                <input type="text" placeholder="Email" id="web_lead_email" onkeyup="check_step6();">
-                <input type="text" placeholder="Best time to call" id="best_time_to_call">
+
+                <input type="text" placeholder="Webmaster's Name?" id="web_lead_name" onkeyup="formValidation('web_lead_name');">
+                <p class="validation-hint" id="web-lead-name-hint"></p>
+
+                <input type="text" placeholder="Phone" id="web_lead_phone" onkeyup="formValidation('web_lead_phone');">
+                <p class="validation-hint" id="web-lead-phone-hint"></p>
+
+                <input type="text" placeholder="Email" id="web_lead_email" onkeyup="formValidation('web_lead_email');">
+                <p class="validation-hint" id="web-lead-email-hint"></p>
+
+                <input type="text" placeholder="What's the best time to call" id="best_time_to_call">
                 <button class="button" id="continue5" disabled>Choose &amp; Continue</button>
                 <progress max="100" value="80"></progress>
             </div>
