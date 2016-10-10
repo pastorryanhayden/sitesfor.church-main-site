@@ -4225,6 +4225,9 @@ div.hero div.row {
   .hero__signup a.button.large {
     background-color: #F34235;
     font-weight: bold; }
+  .hero__signup a.button.large.success {
+    background-color: #00BBD3;
+    font-weight: bold; }
 
 div.easy {
   background: #D22E2E;
@@ -5069,6 +5072,12 @@ progress::-webkit-progress-value {
 
 .italic {
   font-style: italic; }
+
+.validation-hint {
+  font-size: 12px !important;
+  margin-top: -15px !important;
+  color: #F34235 !important;
+  text-align: left !important; }
 
 .srdocs {
   display: flex;
