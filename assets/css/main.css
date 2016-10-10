@@ -4268,9 +4268,7 @@ div.easy {
     font-weight: bold;
     font-size: 30px; }
   .easy__content__text h3 span {
-    display: block;
-    font-weight: normal;
-    font-size: 24px; }
+    text-decoration: underline; }
   .easy__content__text a {
     color: #21e6ff;
     font-weight: bold;
@@ -5103,7 +5101,7 @@ div.templates {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    max-width: 900px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto; }
   div.templates .single-template {
@@ -5111,31 +5109,33 @@ div.templates {
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
     text-align: center;
     margin-bottom: 20px;
-    width: 400px; }
+    width: 500px; }
     @media screen and (min-width: 40em) {
       div.templates .single-template {
         margin-bottom: 50px; } }
+    div.templates .single-template img {
+      width: 100%; }
     div.templates .single-template h4 {
       padding-top: 15px;
-      padding-bottom: 15px;
-      border-bottom: 1px solid #202020;
       text-transform: uppercase;
       font-weight: bold;
-      color: #F34235; }
+      color: #008ea0;
+      margin-bottom: 0; }
     div.templates .single-template .explanation {
-      padding-top: 20px;
-      padding-bottom: 20px;
-      border-bottom: 1px solid #202020;
-      margin-bottom: 20px; }
+      padding: 20px 20px 0 20px;
+      color: #717171;
+      font-style: italic;
+      min-height: 100px; }
     div.templates .single-template a.button {
-      background: #00BBD3; }
+      background: #008ea0;
+      font-weight: bold;
+      font-size: 18px; }
   div.templates .theme-explanation {
     background: #008ea0;
     width: 90%;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
     padding: 20px; }
     div.templates .theme-explanation h3 {
       color: #ffffff;
@@ -5144,24 +5144,33 @@ div.templates {
       padding-bottom: 20px;
       margin-top: 0;
       border-bottom: 2px dashed #ffffff;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      text-align: center; }
     div.templates .theme-explanation ul {
       list-style-type: none;
       padding-left: none;
-      margin-left: none;
+      margin-left: 50px;
       color: #f2f2f2;
       font-size: 20px; }
     div.templates .theme-explanation li {
       padding-top: 10px;
-      padding-bottom: 10px;
-      border-bottom: 1px dashed #e6e6e6; }
+      padding-bottom: 10px; }
       div.templates .theme-explanation li strong {
         font-size: 22px;
         color: #ffffff;
         text-transform: uppercase; }
+      div.templates .theme-explanation li span {
+        display: block;
+        margin-left: 30px; }
       div.templates .theme-explanation li:last-child {
         border-bottom: none;
         padding-bottom: 0; }
+    div.templates .theme-explanation p.explanation-text {
+      text-align: center;
+      padding-top: 20px;
+      border-top: 1px dashed #e6e6e6;
+      color: #e6e6e6;
+      font-size: 20px; }
 
 ul.about-menu {
   list-style-type: none;
